@@ -17,10 +17,12 @@ public class Strategy {
     // 自增id
     private Long id;
     // 抽奖策略id
-    private Long strategy_id;
+    private Long strategyId;
     // 抽奖策略描述
-    private String strategy_desc;
-    private Date create_time;
-    private Date update_time;
+    private String strategyDesc;
+    // 抽奖规则模型
+    private String ruleModels;
+    private Date createTime;
+    private Date updateTime;
 
 }
