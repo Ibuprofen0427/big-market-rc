@@ -132,7 +132,7 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
         String key=String.valueOf(strategyId).concat("_").concat(ruleWeightValue);
         // 分布式部署下，不一定为当前应用做的策略配置，也就是值不一定会保存到本应用，而是分布式应用，所以从Redis中获取
         int rateRange = strategyRepository.getRateRange(key);
-        // 通过生成的碎挤汁，获取概率值奖品查找表的结果
+        // 通过生成的随机值，获取概率值奖品查找表的结果
         return strategyRepository.getStrategyAwardAssemble(key, new SecureRandom().nextInt(rateRange));
     }
 }
