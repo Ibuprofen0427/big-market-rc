@@ -29,5 +29,10 @@
         where strategy_id=#{strategy_id}
     </select>
 
+    <select id="queryStrategyAwardRuleModels" parameterType="com.rc.infrastructure.persistent.po.StrategyAward" resultType="java.lang.String">
+        select strategy_award.rule_models
+        from strategy_award
+        where strategy_id=#{strategyId} and award_id=#{awardId}
+    </select>
 
 </mapper>

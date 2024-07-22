@@ -38,6 +38,7 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
         // 3.权重策略配置 - 使用于 rule_weight 权重规则配置
         StrategyEntity strategyEntity = strategyRepository.queryStrategyEntityByStrategyId(strategyId);
         // 4.获取rule_weight
+        // todo：这里报错
         String ruleWeight = strategyEntity.getRuleWeight();
         if (null == ruleWeight) return true;
         // 5.查询StrategyRuleEntity

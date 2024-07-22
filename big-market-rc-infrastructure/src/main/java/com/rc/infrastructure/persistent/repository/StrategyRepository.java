@@ -3,6 +3,7 @@ package com.rc.infrastructure.persistent.repository;
 import com.rc.domain.strategy.model.entity.StrategyAwardEntity;
 import com.rc.domain.strategy.model.entity.StrategyEntity;
 import com.rc.domain.strategy.model.entity.StrategyRuleEntity;
+import com.rc.domain.strategy.model.valobj.StrategyAwardRuleModelVO;
 import com.rc.domain.strategy.repository.IStrategyRepository;
 import com.rc.infrastructure.persistent.dao.IStrategyAwardDao;
 import com.rc.infrastructure.persistent.dao.IStrategyDao;
@@ -138,6 +139,18 @@ public class StrategyRepository implements IStrategyRepository {
         strategyRule.setRuleModel(ruleModel);
         // 根据strategyRule查询ruleValue
         return strategyRuleDao.queryStrategyRuleValue(strategyRule);
+    }
+
+    @Override
+    public StrategyAwardRuleModelVO queryStrategyAwardRuleModel(Long strategyId, Integer awardId) {
+        StrategyAward strategyAward = new StrategyAward();
+        strategyAward.setStrategyId(strategyId);
+        strategyAward.setAwardId(awardId);
+        String ruleModels=strategyAwardDao.queryStrategyAwardRuleModels(strategyAward);
+
+        return StrategyAwardRuleModelVO.builder()
+                .ruleModels(ruleModels)
+                .build();
     }
 
 }
