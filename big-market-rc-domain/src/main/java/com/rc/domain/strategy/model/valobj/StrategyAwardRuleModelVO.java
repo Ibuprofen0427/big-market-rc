@@ -1,12 +1,11 @@
 package com.rc.domain.strategy.model.valobj;
 
-import com.rc.domain.strategy.service.rule.factory.DefaultLogicFactory;
+import com.rc.domain.strategy.service.rule.filter.factory.DefaultLogicFactory;
 import com.rc.types.common.Constants;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
 import java.util.List;
