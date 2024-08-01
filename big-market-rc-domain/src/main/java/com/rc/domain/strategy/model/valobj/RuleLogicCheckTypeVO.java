@@ -6,7 +6,7 @@ import lombok.Getter;
 /**
  * @author renchuang
  * @date 2024/7/16
- * @Description
+ * @Description 规则逻辑检查类型：放行和接管
  */
 @Getter
 @AllArgsConstructor
