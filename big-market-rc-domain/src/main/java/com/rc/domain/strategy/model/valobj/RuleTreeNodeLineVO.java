@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class RuleTreeNodeLineVO {
     // 规则树ID
-    private Integer treeId;
+    private String treeId;
     // line_from：来源
     private String ruleNodeFrom;
     // line_to：指向

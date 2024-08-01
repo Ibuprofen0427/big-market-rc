@@ -19,7 +19,7 @@ import java.util.List;
 @AllArgsConstructor
 public class RuleTreeNodeVO {
     // 规则树ID
-    private Integer treeId;
+    private String treeId;
     // 节点规则key：比如rule_lock,rule_stock,rule_luck_award
     private String ruleKey;
     // 节点规则描述：比如随机积分策略/抽奖1次后解锁

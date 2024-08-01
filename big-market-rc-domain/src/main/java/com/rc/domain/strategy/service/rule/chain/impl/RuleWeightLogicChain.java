@@ -5,6 +5,7 @@ import com.rc.domain.strategy.model.valobj.RuleLogicCheckTypeVO;
 import com.rc.domain.strategy.repository.IStrategyRepository;
 import com.rc.domain.strategy.service.armory.IStrategyDispatch;
 import com.rc.domain.strategy.service.rule.chain.AbstractLogicChain;
+import com.rc.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
 import com.rc.types.common.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -40,7 +41,7 @@ public class RuleWeightLogicChain extends AbstractLogicChain {
      * @return 规则过滤结果
      */
     @Override
-    public Integer logic(String userId, Long strategyId) {
+    public DefaultChainFactory.StrategyAwardVO logic(String userId, Long strategyId) {
         // rule_weight过滤
         log.info("抽奖责任链 - 权重开始 userId: {} strategyId: {} ruleModel: {}", userId, strategyId, ruleModel());
         String ruleValue=strategyRepository.queryStrategyRuleValue(strategyId,ruleModel());
@@ -48,7 +49,8 @@ public class RuleWeightLogicChain extends AbstractLogicChain {
         Map<Long, String> analyticalValueMap = getAnalyticalValue(ruleValue);
         // analyticalValueMap判空处理
         if(null == analyticalValueMap || analyticalValueMap.isEmpty()) {
-            return null;
+            log.warn("抽奖责任链-权重告警【策略配置权重，但ruleValue未配置相应值】 userId: {} strategyId: {} ruleModel: {}", userId, strategyId, ruleModel());
+            return next().logic(userId,strategyId);
         }
         // 解析出map后，则需要根据用户积分值进行过滤
         // 转换keys值后，并默认排序；因为HashMap中的key是个set，是无序的，所以要先排序
@@ -65,7 +67,10 @@ public class RuleWeightLogicChain extends AbstractLogicChain {
             Integer awardId = strategyDispatch.getRandomAwardId(strategyId, analyticalValueMap.get(nextValue));
             // 接管
             log.info("抽奖责任链 - 权重接管 userId:{} strategyId:{} ruleModel:{} awardId:{}",userId,strategyId,ruleModel(),awardId);
-            return awardId;
+            return DefaultChainFactory.StrategyAwardVO.builder()
+                    .awardId(awardId)
+                    .logicModel(ruleModel())
+                    .build();
         }
         // 放行
         log.info("抽奖责任链 - 权重放行 userId:{} strategyId:{} ruleModel:{}",userId,strategyId,ruleModel());
@@ -91,6 +96,6 @@ public class RuleWeightLogicChain extends AbstractLogicChain {
 
     @Override
     protected String ruleModel() {
-        return "rule_weight";
+        return DefaultChainFactory.LogicModel.RULE_WEIGHT.getCode();
     }
 }

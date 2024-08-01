@@ -18,7 +18,7 @@ import java.util.Map;
 @AllArgsConstructor
 public class RuleTreeVO {
     // 规则树ID
-    private Integer treeId;
+    private String treeId;
     // 树名称
     private String treeName;
     // 规则树描述
@@ -26,5 +26,5 @@ public class RuleTreeVO {
     // 规则树根节点：第一个执行的规则
     private String treeRootRuleNode;
     // 树的节点map
-    private Map<String,RuleTreeNodeVO> ruleTreeMap;
+    private Map<String,RuleTreeNodeVO> treeNodeMap;
 }
