@@ -43,6 +43,7 @@ public class RuleLockLogicTreeNode implements ILogicTreeNode {
             //  返回放行RuleActionEntity
             return DefaultTreeFactory.TreeActionEntity.builder()
                     .ruleLogicCheckType(RuleLogicCheckTypeVO.ALLOW)
+//                    .strategyAwardVO()
                     .build();
         }
         // 用户抽奖次数小于规则限定值，规则拦截

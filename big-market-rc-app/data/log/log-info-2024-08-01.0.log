@@ -1,0 +1,679 @@
+24-08-01.00:01:02.345 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 40131 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.00:01:02.346 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-08-01.00:01:02.917 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.00:01:02.919 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.00:01:02.949 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-08-01.00:01:03.709 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.00:01:03.740 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.00:01:03.890 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:01:03.897 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:01:04.856 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.00:01:04.895 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 2.777 seconds (JVM running for 3.245)
+24-08-01.00:01:29.155 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 40153 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.00:01:29.155 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-08-01.00:01:29.711 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.00:01:29.713 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.00:01:29.756 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaces.
+24-08-01.00:01:30.545 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.00:01:30.582 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.00:01:30.729 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:01:30.750 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:01:31.736 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.00:01:31.773 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 2.874 seconds (JVM running for 3.466)
+24-08-01.00:04:21.303 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 40365 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.00:04:21.304 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-08-01.00:04:21.848 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.00:04:21.850 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.00:04:21.881 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-08-01.00:04:22.613 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.00:04:22.646 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.00:04:22.793 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:04:22.800 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:04:23.759 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.00:04:23.798 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 2.756 seconds (JVM running for 3.338)
+24-08-01.00:04:39.358 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-08-01.00:04:39.360 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
+24-08-01.00:04:39.363 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
+24-08-01.00:04:43.801 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 40389 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.00:04:43.802 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-08-01.00:04:44.357 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.00:04:44.359 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.00:04:44.391 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-08-01.00:04:45.127 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.00:04:45.163 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.00:04:45.308 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:04:45.318 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:04:46.264 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.00:04:46.304 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 2.748 seconds (JVM running for 3.196)
+24-08-01.00:04:46.520 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-08-01.00:04:46.522 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
+24-08-01.00:04:46.523 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
+24-08-01.00:04:46.613 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
+24-08-01.00:08:07.274 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 40693 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.00:08:07.274 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-08-01.00:08:07.862 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.00:08:07.864 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.00:08:07.895 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-08-01.00:08:08.663 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.00:08:08.697 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.00:08:08.840 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:08:08.849 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.00:08:09.792 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.00:08:09.828 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 2.81 seconds (JVM running for 3.301)
+24-08-01.00:08:10.055 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-08-01.00:08:10.056 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
+24-08-01.00:08:10.057 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
+24-08-01.00:08:10.192 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
+24-08-01.10:28:29.204 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056.local with PID 48947 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.10:28:29.205 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-08-01.10:28:29.827 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.10:28:29.829 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.10:28:29.877 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+24-08-01.10:28:30.766 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.10:28:30.804 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.10:28:30.939 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.10:28:30.947 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.10:28:31.876 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.10:28:31.913 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 2.965 seconds (JVM running for 3.64)
+24-08-01.10:28:32.129 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-08-01.10:28:32.130 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
+24-08-01.10:28:32.132 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
+24-08-01.10:28:32.241 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
+24-08-01.15:32:32.645 [main            ] INFO  StrategyRepositoryTest - Starting StrategyRepositoryTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056.local with PID 67508 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.15:32:32.646 [main            ] INFO  StrategyRepositoryTest - The following 1 profile is active: "dev"
+24-08-01.15:32:33.285 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.15:32:33.287 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.15:32:33.330 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+24-08-01.15:32:34.133 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.15:32:34.170 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.15:32:34.328 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.15:32:34.336 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.15:32:35.321 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.15:32:35.362 [main            ] INFO  StrategyRepositoryTest - Started StrategyRepositoryTest in 2.985 seconds (JVM running for 3.54)
+24-08-01.15:32:35.620 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.15:32:35.974 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.15:32:36.062 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.15:32:36.065 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.15:38:21.803 [main            ] INFO  StrategyRepositoryTest - Starting StrategyRepositoryTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056.local with PID 68184 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.15:38:21.803 [main            ] INFO  StrategyRepositoryTest - The following 1 profile is active: "dev"
+24-08-01.15:38:22.453 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.15:38:22.455 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.15:38:22.501 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 0 Redis repository interfaces.
+24-08-01.15:38:23.331 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.15:38:23.369 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.15:38:23.537 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.15:38:23.547 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.15:38:24.479 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.15:38:24.515 [main            ] INFO  StrategyRepositoryTest - Started StrategyRepositoryTest in 2.96 seconds (JVM running for 3.535)
+24-08-01.15:38:24.740 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.15:38:25.098 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.15:38:25.321 [main            ] INFO  StrategyRepositoryTest - 测试结果: {"treeDesc":"规则树","treeId":"tree_lock","treeName":"规则树","treeNodeMap":{"rule_lock":{"ruleDesc":"限定用户已完成N次抽奖后解锁","ruleKey":"rule_lock","ruleValue":"1","treeId":"tree_lock","treeNodeLineVOList":[{"ruleLimitType":"EQUAL","ruleLimitValue":"ALLOW","ruleNodeFrom":"rule_lock","ruleNodeTo":"rule_stock","treeId":"tree_lock"},{"ruleLimitType":"EQUAL","ruleLimitValue":"TAKE_OVER","ruleNodeFrom":"rule_lock","ruleNodeTo":"rule_luck_award","treeId":"tree_lock"}]},"rule_stock":{"ruleDesc":"库存扣减规则","ruleKey":"rule_stock","treeId":"tree_lock","treeNodeLineVOList":[{"ruleLimitType":"EQUAL","ruleLimitValue":"TAKE_OVER","ruleNodeFrom":"rule_stock","ruleNodeTo":"rule_luck_award","treeId":"tree_lock"}]},"rule_luck_award":{"ruleDesc":"兜底奖品随机积分","ruleKey":"rule_luck_award","ruleValue":"1,100","treeId":"tree_lock"}},"treeRootRuleNode":"rule_lock"}
+24-08-01.15:38:25.363 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.15:38:25.383 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.17:01:59.247 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056.local with PID 75190 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.17:01:59.248 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.17:01:59.808 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.17:01:59.810 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.17:01:59.838 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-08-01.17:02:00.671 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.17:02:00.713 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.17:02:00.855 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.17:02:00.863 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.17:02:01.859 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.17:02:01.894 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 2.876 seconds (JVM running for 3.346)
+24-08-01.17:02:02.219 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.17:02:02.467 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.17:02:02.522 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-01.17:02:02.552 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.17:02:02.555 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.17:02:14.606 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056.local with PID 75205 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.17:02:14.606 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.17:02:15.263 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.17:02:15.266 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.17:02:15.297 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-08-01.17:02:16.145 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.17:02:16.184 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.17:02:16.342 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.17:02:16.350 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.17:02:17.299 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.17:02:17.340 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.007 seconds (JVM running for 3.575)
+24-08-01.17:02:17.669 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.17:02:17.933 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.17:02:17.984 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-01.17:02:17.994 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-01.17:02:17.999 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-01.17:02:17.999 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-01.17:02:18.009 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-08-01.17:02:18.010 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-08-01.17:02:18.012 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-08-01.17:02:18.012 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-01.17:02:18.115 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-01.17:02:18.117 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":101}
+24-08-01.17:02:18.138 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.17:02:18.144 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.22:56:42.548 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 1410 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.22:56:42.549 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.22:56:43.190 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.22:56:43.192 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.22:56:43.216 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-08-01.22:56:44.077 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.22:56:44.115 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.22:56:44.269 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:56:44.279 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:56:45.299 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.22:56:45.339 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.035 seconds (JVM running for 3.545)
+24-08-01.22:56:45.576 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.22:56:45.872 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.22:56:45.968 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.22:56:45.972 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.22:57:23.290 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 1541 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.22:57:23.290 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.22:57:23.840 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.22:57:23.842 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.22:57:23.876 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-08-01.22:57:24.655 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.22:57:24.690 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.22:57:24.837 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:57:24.845 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:57:25.772 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.22:57:25.807 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 2.748 seconds (JVM running for 3.289)
+24-08-01.22:57:26.074 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.22:57:26.322 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.22:57:26.350 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-01.22:57:26.354 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-01.22:57:26.355 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-01.22:57:26.370 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-01.22:57:26.371 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-08-01.22:57:26.371 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-01.22:57:26.386 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-08-01.22:57:26.386 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:1,100
+24-08-01.22:57:26.408 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.22:57:26.410 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.22:58:47.597 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 1613 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.22:58:47.598 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.22:58:48.145 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.22:58:48.147 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.22:58:48.182 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-08-01.22:58:48.992 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.22:58:49.026 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.22:58:49.173 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:58:49.180 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:58:50.283 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.22:58:50.322 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 2.975 seconds (JVM running for 4.025)
+24-08-01.22:58:50.511 [redisson-netty-2-6] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x71f40ca0, L:/127.0.0.1:58583 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=7, widx=7), command: (GET), promise: java.util.concurrent.CompletableFuture@4a9c8058[Not completed, 1 dependents], params: [strategy_award_count_key_100006_101]
+com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-08-01.22:58:50.516 [redisson-netty-2-6] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x71f40ca0, L:/127.0.0.1:58583 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-08-01.22:58:56.930 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 1648 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.22:58:56.930 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.22:58:57.502 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.22:58:57.504 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.22:58:57.531 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-08-01.22:58:58.312 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.22:58:58.347 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.22:58:58.514 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:58:58.521 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.22:58:59.718 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.22:58:59.763 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.085 seconds (JVM running for 3.638)
+24-08-01.22:58:59.955 [redisson-netty-2-6] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0xcd27c0c9, L:/127.0.0.1:58603 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=7, widx=7), command: (GET), promise: java.util.concurrent.CompletableFuture@18e61ed[Not completed, 1 dependents], params: [strategy_award_count_key_100006_101]
+com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-08-01.22:58:59.960 [redisson-netty-2-6] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0xcd27c0c9, L:/127.0.0.1:58603 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-08-01.23:00:04.039 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 1810 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:00:04.040 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:00:04.596 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:00:04.598 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:00:04.628 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-08-01.23:00:05.415 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:00:05.452 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:00:05.632 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:00:05.640 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:00:06.835 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:00:06.880 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.086 seconds (JVM running for 3.775)
+24-08-01.23:00:07.058 [redisson-netty-2-6] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x391002b0, L:/127.0.0.1:58735 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=7, widx=7), command: (GET), promise: java.util.concurrent.CompletableFuture@1ea85065[Not completed, 1 dependents], params: [strategy_award_count_key_100006_101]
+com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-08-01.23:00:07.063 [redisson-netty-2-6] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x391002b0, L:/127.0.0.1:58735 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-08-01.23:03:41.828 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 2101 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:03:41.829 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:03:42.386 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:03:42.388 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:03:42.414 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-08-01.23:03:43.208 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:03:43.246 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:03:43.410 [redisson-netty-2-7] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:03:43.415 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:03:44.501 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:03:44.543 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 2.978 seconds (JVM running for 3.666)
+24-08-01.23:03:44.727 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.23:03:44.980 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.23:03:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:03:45.056 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.23:03:45.059 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.23:04:07.986 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 2141 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:04:07.987 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:04:08.549 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:04:08.551 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:04:08.588 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-08-01.23:04:09.420 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:04:09.460 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:04:09.614 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:04:09.636 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:04:10.717 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:04:10.756 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.027 seconds (JVM running for 3.634)
+24-08-01.23:04:22.200 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:04:59.159 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:05:28.603 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:05:32.194 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:05:36.145 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:05:57.411 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:05:58.425 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.23:05:58.715 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.23:05:58.751 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-01.23:05:58.759 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-01.23:05:58.760 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-01.23:05:58.782 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-01.23:05:58.783 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-08-01.23:05:58.784 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-01.23:05:58.801 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-08-01.23:05:58.801 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:1,100
+24-08-01.23:06:07.414 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:08:19.428 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s999ms).
+24-08-01.23:08:19.507 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.23:08:19.518 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.23:08:34.711 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 2475 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:08:34.712 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:08:35.311 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:08:35.313 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:08:35.345 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-08-01.23:08:36.155 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:08:36.190 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:08:36.352 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:08:36.362 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:08:37.385 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:08:37.520 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.056 seconds (JVM running for 3.719)
+24-08-01.23:09:42.715 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:09:42.791 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-01.23:09:42.793 [redisson-netty-2-8] ERROR CommandDecoder         - Unable to decode data. channel: [id: 0x9162eac8, L:/127.0.0.1:59933 - R:127.0.0.1/127.0.0.1:6379], reply: ReplayingDecoderByteBuf(ridx=7, widx=7), command: (GET), promise: java.util.concurrent.CompletableFuture@1e71492f[Not completed, 1 dependents], params: [strategy_award_count_key_100006_101]
+com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-08-01.23:09:42.799 [redisson-netty-2-8] ERROR ErrorsLoggingHandler   - Exception occured. Channel: [id: 0x9162eac8, L:/127.0.0.1:59933 - R:127.0.0.1/127.0.0.1:6379]
+io.netty.handler.codec.DecoderException: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:421)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.esotericsoftware.kryo.KryoException: Encountered unregistered class ID: 49
+	at com.esotericsoftware.kryo.util.DefaultClassResolver.readClass(DefaultClassResolver.java:159)
+	at com.esotericsoftware.kryo.Kryo.readClass(Kryo.java:758)
+	at com.esotericsoftware.kryo.Kryo.readClassAndObject(Kryo.java:869)
+	at org.redisson.codec.Kryo5Codec$4.decode(Kryo5Codec.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:394)
+	at org.redisson.client.handler.CommandDecoder.decodeCommand(CommandDecoder.java:205)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:144)
+	at org.redisson.client.handler.CommandDecoder.decode(CommandDecoder.java:120)
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:366)
+	... 17 common frames omitted
+24-08-01.23:09:42.809 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.23:10:27.594 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 2707 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:10:27.594 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:10:28.168 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:10:28.169 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:10:28.197 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-08-01.23:10:29.002 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:10:29.038 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:10:29.199 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:10:29.234 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:10:30.378 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:10:30.422 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.08 seconds (JVM running for 3.777)
+24-08-01.23:10:47.161 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:10:47.250 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.23:10:47.538 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.23:10:47.637 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.23:10:47.640 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-01.23:11:18.457 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 2761 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:11:18.458 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:11:19.057 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:11:19.059 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:11:19.088 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-08-01.23:11:19.880 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:11:19.918 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:11:20.069 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:11:20.085 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:11:21.202 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:11:21.246 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.036 seconds (JVM running for 3.703)
+24-08-01.23:11:29.193 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:11:48.653 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 2933 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-01.23:11:48.654 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-01.23:11:49.241 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-01.23:11:49.243 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-01.23:11:49.274 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-08-01.23:11:50.077 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-01.23:11:50.115 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-01.23:11:50.273 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:11:50.280 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-01.23:11:51.407 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-01.23:11:51.454 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.045 seconds (JVM running for 3.704)
+24-08-01.23:11:51.669 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-01.23:11:51.943 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-01.23:11:51.976 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-01.23:11:51.981 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-01.23:11:51.982 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-01.23:11:51.995 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-01.23:11:51.995 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-08-01.23:11:51.996 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-01.23:11:52.010 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-08-01.23:11:52.010 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-01.23:11:56.052 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:11:57.729 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-01.23:11:57.729 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-08-01.23:11:57.730 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-01.23:11:57.860 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-01.23:11:57.863 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-01.23:11:57.865 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-01.23:11:57.865 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-01.23:11:57.867 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-01.23:11:57.868 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-08-01.23:11:57.868 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-01.23:11:57.870 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-08-01.23:11:57.870 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-01.23:12:00.885 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:00.885 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-01.23:12:00.885 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-08-01.23:12:00.885 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-01.23:12:00.886 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-01.23:12:00.886 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-01.23:12:00.888 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-01.23:12:00.892 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-01.23:12:00.893 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-01.23:12:00.906 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-01.23:12:00.906 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-08-01.23:12:00.906 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-01.23:12:00.910 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-08-01.23:12:00.910 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-01.23:12:01.624 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-01.23:12:01.624 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-08-01.23:12:01.624 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-01.23:12:01.624 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-01.23:12:01.624 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-01.23:12:05.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:05.012 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-01.23:12:10.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:10.012 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-01.23:12:15.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:20.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:25.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:30.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:35.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:45.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:50.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:12:55.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:00.011 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:05.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:10.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:20.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:30.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:35.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:40.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:50.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:13:55.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:00.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:05.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:10.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:20.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:30.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:35.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:40.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:14:55.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:00.015 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:05.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:10.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:15.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:20.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:25.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:30.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:35.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:40.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:50.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:15:55.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:00.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:05.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:10.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:15.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:20.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:30.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:35.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:40.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:45.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:50.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:16:55.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:00.010 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:05.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:10.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:20.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:25.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-01.23:17:28.679 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-01.23:17:28.720 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

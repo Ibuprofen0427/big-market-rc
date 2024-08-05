@@ -33,7 +33,7 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
     @Override
     public DefaultTreeFactory.StrategyAwardVO process(String userId, Long strategyId, Integer awardId) {
         DefaultTreeFactory.StrategyAwardVO strategyAwardData = null;
-        // 获取基础信息
+        // 获取规则树的跟节点（第一个要处理的规则节点）
         String nextNode = ruleTreeVO.getTreeRootRuleNode();
         Map<String, RuleTreeNodeVO> treeNodeMap = ruleTreeVO.getTreeNodeMap();
         // 获取起始节点「根节点记录了第一个要执行的规则」
@@ -49,7 +49,7 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
             RuleLogicCheckTypeVO ruleLogicCheckType = logicEntity.getRuleLogicCheckType();
             // 获取奖品数据
             strategyAwardData = logicEntity.getStrategyAwardVO();
-            log.info("决策树引擎【{}】treeId:{} node:{} code:{}", ruleTreeVO.getTreeName(), ruleTreeVO.getTreeId(), nextNode, ruleLogicCheckType.getCode());
+            log.info("决策树引擎:{} treeId:{} node:{} code:{}", ruleTreeVO.getTreeName(), ruleTreeVO.getTreeId(), nextNode, ruleLogicCheckType.getCode());
 
 
             // 本节点执行完，获取下一个节点
@@ -63,6 +63,7 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
 
     //  本节点执行完，获取下一个节点
     private String nextNode(String matterValue, List<RuleTreeNodeLineVO> ruleTreeNodeLineVOList) {
+        // todo:这样，有毛病
         if (null == ruleTreeNodeLineVOList || ruleTreeNodeLineVOList.isEmpty()) {
             return null;
         }
@@ -71,8 +72,7 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
                 return nodeLine.getRuleNodeTo();
             }
         }
-        throw new RuntimeException("决策树引擎，nextNode 计算失败，未找到可执行节点");
-
+        return null;
     }
 
 

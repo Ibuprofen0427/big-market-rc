@@ -1,10 +1,13 @@
 package com.rc.domain.strategy.service.raffle;
 
+import com.rc.domain.strategy.model.entity.StrategyAwardEntity;
 import com.rc.domain.strategy.model.valobj.RuleTreeVO;
 import com.rc.domain.strategy.model.valobj.StrategyAwardRuleModelVO;
 import com.rc.domain.strategy.model.valobj.StrategyAwardStockKeyVO;
 import com.rc.domain.strategy.repository.IStrategyRepository;
 import com.rc.domain.strategy.service.AbstractRaffleStrategy;
+import com.rc.domain.strategy.service.IRaffleAward;
+import com.rc.domain.strategy.service.IRaffleStock;
 import com.rc.domain.strategy.service.armory.IStrategyDispatch;
 import com.rc.domain.strategy.service.rule.chain.ILogicChain;
 import com.rc.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
@@ -13,6 +16,9 @@ import com.rc.domain.strategy.service.rule.tree.factory.engine.IDecisionTreeEngi
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author renchuang
  * @date 2024/7/16
@@ -20,7 +26,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Slf4j
-public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
+public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRaffleAward , IRaffleStock {
 
     public DefaultRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch, DefaultChainFactory defaultChainFactory, DefaultTreeFactory defaultTreeFactory) {
         super(repository, strategyDispatch, defaultChainFactory, defaultTreeFactory);
@@ -75,6 +81,11 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
     @Override
     public void updateStrategyAwardStock(Long strategyId, Integer awardId) {
         repository.updateStrategyAwardStock(strategyId,awardId);
+    }
+
+    @Override
+    public List<StrategyAwardEntity> queryRaffleAwardList(Long strategyId) {
+        return repository.queryStrategyAwardList(strategyId);
     }
 }
 

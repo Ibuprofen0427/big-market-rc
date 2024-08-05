@@ -13,6 +13,7 @@
         <module>big-market-rc-trigger</module>
         <module>big-market-rc-infrastructure</module>
         <module>big-market-rc-types</module>
+        <module>big-market-rc-api</module>
     </modules>
 
     <repositories>

@@ -1,0 +1,146 @@
+24-08-02.23:58:18.885 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:01:29.747 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m32s655ms).
+24-08-03.00:01:57.187 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:01:57.183 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-03.00:02:12.944 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-03.00:02:27.306 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:02:27.306 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s33ms).
+24-08-03.00:02:30.692 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:02:44.920 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_luck_award code:0001
+24-08-03.00:02:45.797 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:01.079 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:03:34.512 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:35.160 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:50.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:52.394 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-03.00:03:56.419 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:03:56.559 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-03.00:25:54.236 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:25:54.236 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m19s720ms).
+24-08-03.00:25:54.276 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-03.00:25:54.276 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-03.00:25:54.306 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-03.00:25:54.306 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_lock code:0000
+24-08-03.00:25:54.306 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-03.00:25:54.311 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_stock code:0001
+24-08-03.00:25:54.311 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-03.00:25:54.311 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-03.00:25:54.311 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_luck_award code:0001
+24-08-03.00:25:54.311 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:25:54.312 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-03.00:25:54.312 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-03.00:25:54.326 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-03.00:25:54.327 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-03.00:25:54.330 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-03.00:25:54.331 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_lock code:0000
+24-08-03.00:25:54.331 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-03.00:25:54.336 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_stock code:0001
+24-08-03.00:25:54.336 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-03.00:25:54.336 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-03.00:25:54.336 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_luck_award code:0001
+24-08-03.00:25:54.336 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:25:54.336 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-03.00:25:54.337 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-03.00:25:54.449 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-03.00:25:54.469 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-03.00:26:14.541 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 59018 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-03.00:26:14.541 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-03.00:26:15.149 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-03.00:26:15.154 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-03.00:26:15.178 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-08-03.00:26:15.978 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-03.00:26:16.014 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-03.00:26:16.166 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-03.00:26:16.173 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-03.00:26:17.255 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-03.00:26:17.295 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.02 seconds (JVM running for 3.661)
+24-08-03.00:26:17.548 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-03.00:26:17.553 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-03.00:26:17.554 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-03.00:26:17.569 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-03.00:26:17.851 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-03.00:26:28.613 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:26:29.134 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-03.00:26:29.843 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_lock code:0000
+24-08-03.00:26:30.032 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:26:33.002 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-03.00:26:36.463 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:26:36.845 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_stock code:0001
+24-08-03.00:26:59.163 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:26:59.163 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:33:47.722 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m48s553ms).
+24-08-03.00:33:47.722 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:33:47.736 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:33:47.818 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-03.00:33:47.849 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-08-03.00:33:51.689 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 59830 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-03.00:33:51.690 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-08-03.00:33:52.263 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-03.00:33:52.265 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-03.00:33:52.291 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-08-03.00:33:53.106 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-03.00:33:53.147 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-03.00:33:53.309 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-03.00:33:53.317 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-03.00:33:54.444 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-03.00:33:54.485 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 3.061 seconds (JVM running for 3.692)
+24-08-03.00:33:54.695 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-08-03.00:33:54.700 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-03.00:33:54.701 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-03.00:33:54.715 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-08-03.00:33:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:33:55.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:33:55.028 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-08-03.00:33:57.272 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-03.00:33:57.274 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_lock code:0000
+24-08-03.00:33:57.276 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-03.00:33:57.309 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_stock code:0001
+24-08-03.00:33:57.310 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-03.00:33:57.310 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-03.00:33:57.310 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_luck_award code:0001
+24-08-03.00:33:57.310 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:33:57.421 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-03.00:33:57.423 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-03.00:33:57.426 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-03.00:33:57.426 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-03.00:34:04.185 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-03.00:34:04.185 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:04.185 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_lock code:0000
+24-08-03.00:34:04.186 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-03.00:34:04.199 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_stock code:0001
+24-08-03.00:34:04.199 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-03.00:34:04.199 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-03.00:34:04.199 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_luck_award code:0001
+24-08-03.00:34:04.199 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:34:04.199 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-03.00:34:04.199 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-03.00:34:04.202 [main            ] INFO  DefaultLogicChain      - 抽奖责任链 - 默认处理 userId: rc strategyId: 100006 ruleModel: rule_default awardId:102
+24-08-03.00:34:04.202 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 rc 100006 102 rule_default
+24-08-03.00:34:05.678 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:05.678 [main            ] INFO  RuleLockLogicTreeNode  - 规则过滤 - 次数锁过滤 userId:rc strategyId:100006 awardId:102
+24-08-03.00:34:05.678 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_lock code:0000
+24-08-03.00:34:05.678 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId=rc, strategyId=100006, awardId=102
+24-08-03.00:34:05.681 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:34:05.685 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_stock code:0001
+24-08-03.00:34:05.685 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 ruleValue:100:1,100
+24-08-03.00:34:05.685 [main            ] INFO  RuleLuckAwardLogicTreeNode - 规则过滤-兜底奖品 userId:rc strategyId:100006 awardId:102 awardRuleValue:1,100
+24-08-03.00:34:05.685 [main            ] INFO  DecisionTreeEngine     - 决策树引擎:规则树 treeId:tree_lock node:rule_luck_award code:0001
+24-08-03.00:34:05.686 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算 -规则树 rc 100006 102 rule_default
+24-08-03.00:34:05.686 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"rc"}
+24-08-03.00:34:05.686 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":100}
+24-08-03.00:34:10.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:10.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:34:15.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:15.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消费库存 strategyId:100006 awardId:102
+24-08-03.00:34:20.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:30.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:35.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:40.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-03.00:34:55.691 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-08-03.00:34:55.700 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
