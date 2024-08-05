@@ -8,7 +8,6 @@ import com.rc.domain.strategy.service.rule.tree.ILogicTreeNode;
 import com.rc.domain.strategy.service.rule.tree.factory.DefaultTreeFactory;
 import com.rc.domain.strategy.service.rule.tree.factory.engine.IDecisionTreeEngine;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.DeleteProvider;
 
 import java.util.List;
 import java.util.Map;

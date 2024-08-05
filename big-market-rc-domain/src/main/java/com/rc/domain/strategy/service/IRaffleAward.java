@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author renchuang
  * @date 2024/8/5
- * @Description
+ * @Description 抽奖接口
  */
 public interface IRaffleAward {
 

@@ -36,6 +36,7 @@
             <groupId>com.rc</groupId>
             <artifactId>big-market-rc-api</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.rc</groupId>
