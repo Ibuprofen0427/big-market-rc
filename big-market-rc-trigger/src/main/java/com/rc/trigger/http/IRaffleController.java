@@ -30,7 +30,7 @@ import java.util.List;
  */
 @Slf4j
 @RestController()
-@CrossOrigin("app.config.cross-origin")
+@CrossOrigin(value = "${app.config.cross-origin}")
 @RequestMapping("/api/${app.config.api-version}/raffle/")
 public class IRaffleController implements IRaffleService {
 
@@ -51,7 +51,7 @@ public class IRaffleController implements IRaffleService {
      */
     @RequestMapping(value = "strategy_armory", method = RequestMethod.GET)
     @Override
-    public Response<Boolean> strategyArmory(Long strategyId) {
+    public Response<Boolean> strategyArmory(@RequestParam Long strategyId) {
         try {
             log.info("抽奖策略装配开始 strategyId: {}", strategyId);
             boolean assembledLotteryStrategy = strategyArmory.assembleLotteryStrategy(strategyId);
