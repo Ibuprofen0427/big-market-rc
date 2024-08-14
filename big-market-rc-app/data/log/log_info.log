@@ -112,3 +112,286 @@
 24-08-14.14:58:15.112 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.711 seconds (JVM running for 4.526)
 24-08-14.15:02:16.500 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
 24-08-14.15:02:28.856 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:36:23.983 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 7946 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:36:23.984 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:36:24.602 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:36:24.604 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:36:24.636 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-08-14.21:36:25.588 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:36:25.635 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:36:25.764 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:36:25.773 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:36:26.951 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:36:26.987 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.254 seconds (JVM running for 3.738)
+24-08-14.21:36:27.134 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:36:27.405 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:36:27.476 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.21:36:27.476 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.21:36:27.480 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:36:27.509 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:40:04.777 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 8383 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:40:04.779 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:40:05.522 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:40:05.524 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:40:05.557 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-08-14.21:40:06.793 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:40:06.833 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:40:07.000 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:40:07.007 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:40:08.329 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:40:08.373 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.86 seconds (JVM running for 4.591)
+24-08-14.21:40:11.978 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:16.749 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:19.434 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:40:20.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:30.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:35.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:45.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:40:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:00.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:05.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:10.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:20.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:25.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:30.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:35.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:40.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:41:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:00.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:05.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:10.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:15.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:20.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:25.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:30.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:33.707 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 8501 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:42:33.708 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:42:34.385 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:42:34.386 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:42:34.422 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-08-14.21:42:35.444 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:42:35.479 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:42:35.615 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:42:35.623 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:42:36.933 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:42:36.975 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.533 seconds (JVM running for 4.13)
+24-08-14.21:42:40.616 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:42:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:07.909 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:09.621 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:43:10.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:20.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:30.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:35.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:40.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:50.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:43:55.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:44:00.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:44:36.052 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 8723 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:44:36.053 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:44:36.760 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:44:36.762 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:44:36.794 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-08-14.21:44:37.795 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:44:37.835 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:44:37.981 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:44:37.988 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:44:39.285 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:44:39.327 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.551 seconds (JVM running for 4.122)
+24-08-14.21:44:42.815 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:44:45.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:44:48.485 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:44:50.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:44:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:00.025 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:05.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:10.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:15.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:20.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:30.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:35.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:40.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:45.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:50.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:45:55.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:46:00.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:46:05.000 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:46:10.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:46:15.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:46:20.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.21:47:12.399 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 9061 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:47:12.400 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:47:13.137 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:47:13.139 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:47:13.171 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-08-14.21:47:14.094 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:47:14.133 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:47:14.290 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:47:14.297 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:47:15.420 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:47:15.459 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.317 seconds (JVM running for 3.881)
+24-08-14.21:47:15.609 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:47:15.864 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:47:15.883 [main            ] INFO  AbstractRaffleActivity - 通过sku查询活动信息：ActivitySkuEntity(sku=9011, activityId=100301, activityCountId=11101, stockCount=0, stockCountSurplus=0)
+24-08-14.21:47:15.896 [main            ] INFO  AbstractRaffleActivity - 通过活动信息：ActivityEntity(activityId=100301, activityName=测试活动, activityDesc=测试活动, beginDateTime=Sat Mar 09 18:15:10 CST 2024, endDateTime=Thu Mar 09 18:15:10 CST 2034, activityCountId=null, strategyId=100006, state=create)
+24-08-14.21:47:15.925 [main            ] INFO  AbstractRaffleActivity - 通过次数信息（用户在活动上可参与的次数）：ActivityCountEntity(activityCountId=11101, totalCount=100, dayCount=2, monthCount=60)
+24-08-14.21:47:16.029 [main            ] INFO  AbstractRaffleActivity - 最终查询结果：{"activityCountId":11101,"activityId":100301,"sku":9011,"stockCount":0,"stockCountSurplus":0} {"activityDesc":"测试活动","activityId":100301,"activityName":"测试活动","beginDateTime":1709979310000,"endDateTime":2025512110000,"state":"create","strategyId":100006} {"activityCountId":11101,"dayCount":2,"monthCount":60,"totalCount":100}
+24-08-14.21:47:16.033 [main            ] INFO  RaffleOrderTest        - 活动下单测试结果：{}
+24-08-14.21:49:17.842 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 9276 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:49:17.843 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:49:18.498 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:49:18.500 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:49:18.535 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+24-08-14.21:49:19.461 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:49:19.505 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:49:19.658 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:49:19.671 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:49:20.918 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:49:20.958 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.352 seconds (JVM running for 3.892)
+24-08-14.21:49:21.218 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:49:21.493 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:49:21.563 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.21:49:21.564 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.21:49:21.571 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:49:21.593 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:58:55.911 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 10123 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.21:58:55.911 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.21:58:56.553 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.21:58:56.555 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.21:58:56.587 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-08-14.21:58:57.497 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.21:58:57.539 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.21:58:57.665 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:58:57.673 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.21:58:58.782 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.21:58:58.815 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.143 seconds (JVM running for 3.588)
+24-08-14.21:58:58.951 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:58:59.228 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:58:59.304 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.21:58:59.304 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.21:58:59.307 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.21:58:59.332 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.21:58:59.353 [main            ] INFO  RaffleOrderTest        - 测试结果: 000011587094
+24-08-14.22:03:39.835 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 10513 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.22:03:39.836 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.22:03:40.474 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.22:03:40.476 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.22:03:40.512 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+24-08-14.22:03:41.436 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.22:03:41.473 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.22:03:41.626 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:03:41.634 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:03:42.800 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.22:03:42.838 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.235 seconds (JVM running for 3.831)
+24-08-14.22:03:43.004 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:03:43.278 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:03:43.338 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.22:03:43.338 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.22:03:43.343 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:03:43.367 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:03:43.411 [main            ] ERROR ActivityRepository     - 写入订单记录，唯一索引冲突: userId: rc activityId: 100301 sku: 9011
+24-08-14.22:04:16.770 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 10634 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.22:04:16.771 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.22:04:17.441 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.22:04:17.443 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.22:04:17.473 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-08-14.22:04:18.398 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.22:04:18.444 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.22:04:18.571 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:04:18.589 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:04:19.731 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.22:04:19.765 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.249 seconds (JVM running for 3.716)
+24-08-14.22:04:19.918 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:04:20.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:04:20.219 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:04:20.273 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.22:04:20.273 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.22:04:20.278 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:04:20.299 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:04:20.313 [main            ] INFO  RaffleOrderTest        - 测试结果: 772730878234
+24-08-14.22:05:51.727 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 10706 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.22:05:51.727 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.22:05:52.497 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.22:05:52.499 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.22:05:52.589 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 Redis repository interfaces.
+24-08-14.22:05:53.680 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.22:05:53.717 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.22:05:53.874 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:05:53.880 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:05:55.224 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.22:05:55.267 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.808 seconds (JVM running for 4.416)
+24-08-14.22:06:06.187 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:20.321 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:22.026 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:06:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:30.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:35.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:40.002 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:45.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:50.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:06:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:00.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:05.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:10.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:15.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:20.006 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:25.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:30.001 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:35.638 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 10948 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.22:07:35.638 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.22:07:36.344 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.22:07:36.346 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.22:07:36.381 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-08-14.22:07:37.453 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.22:07:37.488 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.22:07:37.636 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:07:37.643 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:07:38.941 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.22:07:38.984 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.611 seconds (JVM running for 4.243)
+24-08-14.22:07:45.205 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:50.083 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:07:50.107 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:07:50.405 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:08:22.467 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m2s62ms).
+24-08-14.22:08:22.467 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:08:31.669 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.22:08:41.966 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:08:41.967 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.22:09:21.087 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:09:51.981 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:09:51.981 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s900ms).
+24-08-14.22:09:52.226 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:09:55.005 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:09:59.415 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:10:00.004 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:10:24.722 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:10:43.699 [main            ] INFO  RaffleOrderTest        - 测试结果: 604949283097
+24-08-14.22:10:49.751 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】
+24-08-14.22:11:25.904 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_411 on MBP-RQLVV9CWCK-0056 with PID 11303 (started by renchuang in /Users/renchuang/xfg_study/big-market-rc/big-market-rc-app)
+24-08-14.22:11:25.905 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-08-14.22:11:26.611 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-08-14.22:11:26.613 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-08-14.22:11:26.653 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+24-08-14.22:11:27.652 [main            ] INFO  Version                - Redisson 3.23.4
+24-08-14.22:11:27.693 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+24-08-14.22:11:27.841 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:11:27.848 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-08-14.22:11:29.110 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-08-14.22:11:29.151 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 3.543 seconds (JVM running for 4.243)
+24-08-14.22:11:29.305 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:11:29.580 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:11:29.641 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息校验【有效期，状态】 校验开始
+24-08-14.22:11:29.641 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验 & 扣减】开始
+24-08-14.22:11:29.645 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-08-14.22:11:29.673 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-08-14.22:11:29.714 [main            ] ERROR ActivityRepository     - 写入订单记录，唯一索引冲突: userId: rc activityId: 100301 sku: 9011

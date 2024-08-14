@@ -11,5 +11,5 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface IRaffleActivitySkuDao {
 
-    RaffleActivitySku queryActivitySku(Long skuId);
+    RaffleActivitySku queryActivitySku(Long sku);
 }

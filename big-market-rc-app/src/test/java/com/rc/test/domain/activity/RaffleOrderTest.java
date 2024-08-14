@@ -3,6 +3,7 @@ package com.rc.test.domain.activity;
 import com.alibaba.fastjson.JSON;
 import com.rc.domain.activity.model.entity.ActivityOrderEntity;
 import com.rc.domain.activity.model.entity.ActivityShopCartEntity;
+import com.rc.domain.activity.model.entity.SkuRechargeEntity;
 import com.rc.domain.activity.service.IRaffleOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.checkerframework.checker.units.qual.A;
@@ -36,6 +37,16 @@ public class RaffleOrderTest {
         ActivityOrderEntity raffleActivityOrder = raffleOrder.createRaffleActivityOrder(activityShopCartEntity);
 
         log.info("活动下单测试结果：{}", JSON.toJSONString(raffleActivityOrder));
+    }
+
+    @Test
+    public void test_createSkuReChargeOrder(){
+        SkuRechargeEntity skuRechargeEntity = new SkuRechargeEntity();
+        skuRechargeEntity.setUserId("rc");
+        skuRechargeEntity.setSku(9011L);
+        skuRechargeEntity.setOutBusinessNo("700091009115");
+        String orderId= raffleOrder.createSkuReChargeOrder(skuRechargeEntity);
+        log.info("测试结果: {}",orderId);
     }
 
 }

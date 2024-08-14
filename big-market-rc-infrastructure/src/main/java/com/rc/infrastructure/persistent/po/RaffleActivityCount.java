@@ -10,6 +10,8 @@ import java.util.Date;
  * @Description 抽奖活动次数配置表 持久化对象
  * 活动次数表，后续可以增加各种情况的次数，比如某节日时间段的次数等等
  * 从活动表拆出来的，降低耦合度，后期好扩展。
+ * Count是流水记录，Account是最终结果
+ * 通过Count记录可以一天天计算最终对出Account的结果
  */
 @Data
 public class RaffleActivityCount {

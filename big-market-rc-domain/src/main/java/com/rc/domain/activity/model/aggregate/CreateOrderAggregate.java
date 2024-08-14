@@ -2,6 +2,7 @@ package com.rc.domain.activity.model.aggregate;
 
 import com.rc.domain.activity.model.entity.ActivityAccountEntity;
 import com.rc.domain.activity.model.entity.ActivityOrderEntity;
+import com.rc.domain.activity.model.entity.SkuRechargeEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,10 +19,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CreateOrderAggregate {
 
-    /**
-     * 活动账户实体
-     */
-    private ActivityAccountEntity activityAccountEntity;
+    private String userId;
+    private Long activityId;
+    private Integer totalCount;
+    private Integer dayCount;
+    private Integer monthCount;
     /**
      * 活动订单实体
      */

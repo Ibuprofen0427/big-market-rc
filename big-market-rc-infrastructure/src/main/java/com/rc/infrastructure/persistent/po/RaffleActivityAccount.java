@@ -9,7 +9,8 @@ import java.util.Date;
  * @date 2024/8/13
  * @Description 抽奖活动账户表-持久化对象
  * 用户活动次数汇总表，记录着用户对应某活动的次数信息
- *
+ * Count是流水记录，Account是最终结果
+ * 通过Count记录可以一天天计算最终对出Account的结果
  */
 @Data
 public class RaffleActivityAccount {
