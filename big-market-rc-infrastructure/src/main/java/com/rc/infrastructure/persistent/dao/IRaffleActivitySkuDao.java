@@ -1,5 +1,6 @@
 package com.rc.infrastructure.persistent.dao;
 
+import com.rc.infrastructure.persistent.po.RaffleActivitySku;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -8,5 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
  * @Description
  */
 @Mapper
-public interface IRaffleActivityAccountFlowDao {
+public interface IRaffleActivitySkuDao {
+
+    RaffleActivitySku queryActivitySku(Long skuId);
 }

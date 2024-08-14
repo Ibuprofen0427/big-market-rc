@@ -1,5 +1,7 @@
 package com.rc.infrastructure.persistent.dao;
 
+import com.rc.infrastructure.persistent.po.RaffleActivity;
+import com.rc.infrastructure.persistent.po.RaffleActivityCount;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -9,4 +11,5 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface IRaffleActivityCountDao {
+     RaffleActivityCount queryRaffleActivityCountByActivityCountId(Long activityCountId);
 }

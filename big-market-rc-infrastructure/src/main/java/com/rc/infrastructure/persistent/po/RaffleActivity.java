@@ -18,7 +18,7 @@ public class RaffleActivity {
     /**
      * 活动ID
      */
-    private Integer activityId;
+    private Long activityId;
 
     /**
      * 活动名称
@@ -37,18 +37,6 @@ public class RaffleActivity {
      * 活动结束时间
      */
     private Date endDateTime;
-    /**
-     * 活动库存量
-     */
-    private Integer stockCount;
-    /**
-     * 活动剩余库存量
-     */
-    private Integer stockCountSurplus;
-    /**
-     * 活动参与次数配置
-     */
-    private Long activityCountId;
     /**
      * 该活动采取的抽奖策略id
      */

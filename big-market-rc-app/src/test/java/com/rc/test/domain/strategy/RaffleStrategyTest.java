@@ -1,4 +1,4 @@
-package com.rc.test.domain;
+package com.rc.test.domain.strategy;
 
 import com.alibaba.fastjson.JSON;
 import com.rc.domain.strategy.model.entity.RaffleAwardEntity;
@@ -7,15 +7,12 @@ import com.rc.domain.strategy.model.valobj.StrategyAwardStockKeyVO;
 import com.rc.domain.strategy.service.IRaffleStock;
 import com.rc.domain.strategy.service.IRaffleStrategy;
 import com.rc.domain.strategy.service.armory.IStrategyArmory;
-import com.rc.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
 import com.rc.domain.strategy.service.rule.chain.impl.RuleWeightLogicChain;
-import com.rc.domain.strategy.service.rule.filter.impl.RuleLockLogicFilter;
 import com.rc.domain.strategy.service.rule.tree.impl.RuleLockLogicTreeNode;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.util.ReflectionTestUtils;

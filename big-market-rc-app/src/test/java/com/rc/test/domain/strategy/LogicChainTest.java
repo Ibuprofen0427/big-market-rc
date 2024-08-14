@@ -1,11 +1,9 @@
-package com.rc.test.domain;
+package com.rc.test.domain.strategy;
 
 import com.alibaba.fastjson.JSON;
-import com.rc.domain.strategy.repository.IStrategyRepository;
 import com.rc.domain.strategy.service.armory.IStrategyArmory;
 import com.rc.domain.strategy.service.rule.chain.ILogicChain;
 import com.rc.domain.strategy.service.rule.chain.factory.DefaultChainFactory;
-import com.rc.domain.strategy.service.rule.chain.impl.DefaultLogicChain;
 import com.rc.domain.strategy.service.rule.chain.impl.RuleWeightLogicChain;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
