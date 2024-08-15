@@ -43,6 +43,10 @@
             <groupId>com.rc</groupId>
             <artifactId>big-market-rc-types</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
     </dependencies>
 
 

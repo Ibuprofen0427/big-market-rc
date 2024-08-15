@@ -21,6 +21,8 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.annotation.Resource;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author renchuang
@@ -154,7 +156,7 @@ public class ActivityRepository implements IActivityRepository {
                     // 2.更新账户，当用户第一次插入失败后，则走下面逻辑新建了用户，则count值不为1，则直接走更新账户
                     int count = raffleActivityAccountDao.updateAccountQuota(raffleActivityAccount);
                     // 3.创建账户 - 更新结果为0，则账户不存在，创建新账户
-                    if(count == 0){
+                    if (count == 0) {
                         raffleActivityAccountDao.insert(raffleActivityAccount);
                     }
                 } catch (DuplicateKeyException duplicateKeyException) {
@@ -170,5 +172,38 @@ public class ActivityRepository implements IActivityRepository {
         }
 
 
+    }
+
+    @Override
+    public void cacheActivitySkuStockCount(String cacheKey, Integer stockCount) {
+        if (redisService.isExists(cacheKey)) {
+            return;
+        }
+        redisService.setAtomicLong(cacheKey, stockCount);
+    }
+
+    @Override
+    public boolean subtractionActivitySkuStock(Long sku, String cacheKey, Date endDateTime) {
+        long surplus = redisService.decr(cacheKey);
+        if (surplus == 0) {
+            // 库存被消耗完 todo:发送MQ消息，直接将数据库的数据改为0，并且清空消息队列
+
+            return false;
+        } else if (surplus < 0) {
+            // 库存小于0，则修改为0
+            redisService.setAtomicLong(cacheKey, 0);
+            return false;
+        }
+        // surplus>0:正常扣减逻辑
+        // 1.按照cachekey decr后的值，如99，98，97和key组成库存锁的key进行使用
+        // 2.加锁是为了兜底，如果后续有回复库存、手动处理等【运营等人操作，会有这种情况】，也不会超卖，因为所有的可用库存key，都加了锁。
+        // 3.设置加锁时间为活动到期 + 延迟1天
+        String lockKey = cacheKey + Constants.UNDERLINE + surplus;
+        long expireMillis = endDateTime.getTime() - System.currentTimeMillis() + TimeUnit.DAYS.toMillis(1);
+        Boolean lock = redisService.setNx(lockKey, expireMillis, TimeUnit.MILLISECONDS);
+        if(!lock){
+            log.info("活动sku库存加锁失败 {}", lockKey);
+        }
+        return false;
     }
 }

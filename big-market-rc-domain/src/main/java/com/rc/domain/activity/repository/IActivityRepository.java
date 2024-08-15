@@ -5,6 +5,8 @@ import com.rc.domain.activity.model.entity.ActivityCountEntity;
 import com.rc.domain.activity.model.entity.ActivityEntity;
 import com.rc.domain.activity.model.entity.ActivitySkuEntity;
 
+import java.util.Date;
+
 /**
  * @author renchuang
  * @date 2024/8/14
@@ -22,4 +24,8 @@ public interface IActivityRepository {
 
 
     void doSaveOrder(CreateOrderAggregate createOrderAggregate);
+
+    void cacheActivitySkuStockCount(String cacheKey, Integer stockCount);
+
+    boolean subtractionActivitySkuStock(Long sku, String cacheKey, Date endDateTime);
 }
