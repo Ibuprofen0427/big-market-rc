@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * @author renchuang
  * @date 2024/8/14
- * @Description
+ * @Description 活动次数实体对象
  */
 @Data
 @Builder

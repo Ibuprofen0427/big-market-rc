@@ -1,13 +1,16 @@
 package com.rc.infrastructure.persistent.repository;
 
 import cn.bugstack.middleware.db.router.strategy.IDBRouterStrategy;
+import com.rc.domain.activity.event.ActivitySkuStockZeroMessageEvent;
 import com.rc.domain.activity.model.aggregate.CreateOrderAggregate;
 import com.rc.domain.activity.model.entity.ActivityCountEntity;
 import com.rc.domain.activity.model.entity.ActivityEntity;
 import com.rc.domain.activity.model.entity.ActivityOrderEntity;
 import com.rc.domain.activity.model.entity.ActivitySkuEntity;
+import com.rc.domain.activity.model.valobj.ActivitySkuStockKeyVO;
 import com.rc.domain.activity.model.valobj.ActivityStateVO;
 import com.rc.domain.activity.repository.IActivityRepository;
+import com.rc.infrastructure.event.EventPublisher;
 import com.rc.infrastructure.persistent.dao.*;
 import com.rc.infrastructure.persistent.po.*;
 import com.rc.infrastructure.persistent.redis.IRedisService;
@@ -16,6 +19,8 @@ import com.rc.types.common.Constants;
 import com.rc.types.enums.ResponseCode;
 import com.rc.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
+import org.redisson.api.RBlockingQueue;
+import org.redisson.api.RDelayedQueue;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.support.TransactionTemplate;
@@ -51,6 +56,12 @@ public class ActivityRepository implements IActivityRepository {
     @Resource
     private IRaffleActivityAccountDao raffleActivityAccountDao;
 
+
+    @Resource
+    private EventPublisher eventPublisher;
+
+    @Resource
+    private ActivitySkuStockZeroMessageEvent activitySkuStockZeroMessageEvent;
 
     @Resource
     private TransactionTemplate transactionTemplate;
@@ -184,10 +195,11 @@ public class ActivityRepository implements IActivityRepository {
 
     @Override
     public boolean subtractionActivitySkuStock(Long sku, String cacheKey, Date endDateTime) {
+        // 先在缓存中进行扣减
         long surplus = redisService.decr(cacheKey);
         if (surplus == 0) {
-            // 库存被消耗完 todo:发送MQ消息，直接将数据库的数据改为0，并且清空消息队列
-
+            // 库存被消耗完，发送MQ消息，直接将数据库的数据改为0，并且清空消息队列
+            eventPublisher.publish(activitySkuStockZeroMessageEvent.topic(),activitySkuStockZeroMessageEvent.buildEventMessage(sku));
             return false;
         } else if (surplus < 0) {
             // 库存小于0，则修改为0
@@ -204,6 +216,49 @@ public class ActivityRepository implements IActivityRepository {
         if(!lock){
             log.info("活动sku库存加锁失败 {}", lockKey);
         }
-        return false;
+        return true;
+    }
+
+    @Override
+    public void activiyuSkuStockConsumeSendQueue(ActivitySkuStockKeyVO activitySkuStockKeyVO) {
+        // 定义redis查询key：活动sku库存次数查询key
+        String cacheKey=Constants.RedisKey.ACTIVITY_SKU_COUNT_QUERY_KEY;
+        // 获得加锁队列
+        RBlockingQueue<ActivitySkuStockKeyVO> blockingQueue = redisService.getBlockingQueue(cacheKey);
+        // 获得延迟队列
+        RDelayedQueue<ActivitySkuStockKeyVO> delayedQueue = redisService.getDelayedQueue(blockingQueue);
+        // 延迟队列每3秒消费一个activitySkuStockKeyVO消息，每3s扣减一次库存
+        delayedQueue.offer(activitySkuStockKeyVO,3, TimeUnit.SECONDS);
+
+
+    }
+
+    @Override
+    public ActivitySkuStockKeyVO takeQueueValue() {
+        // 定义redis查询key：活动sku库存次数查询key
+        String cacheKey=Constants.RedisKey.ACTIVITY_SKU_COUNT_QUERY_KEY;
+        // 获得加锁队列
+        RBlockingQueue<ActivitySkuStockKeyVO> destinationQueue = redisService.getBlockingQueue(cacheKey);
+        return destinationQueue.poll();
+
+    }
+
+    @Override
+    public void clearQueueValue() {
+        // 定义redis查询key：活动sku库存次数查询key
+        String cacheKey=Constants.RedisKey.ACTIVITY_SKU_COUNT_QUERY_KEY;
+        // 获得加锁队列
+        RBlockingQueue<ActivitySkuStockKeyVO> destinationQueue = redisService.getBlockingQueue(cacheKey);
+        destinationQueue.clear();
+    }
+
+    @Override
+    public void updateActivitySkuStock(Long sku) {
+        raffleActivitySkuDao.updateActivitySkuStock(sku);
+    }
+
+    @Override
+    public void clearActivitySkuStock(Long sku) {
+        raffleActivitySkuDao.clearActivitySkuStock(sku);
     }
 }

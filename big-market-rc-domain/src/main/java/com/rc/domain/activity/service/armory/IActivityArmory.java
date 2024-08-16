@@ -7,5 +7,10 @@ package com.rc.domain.activity.service.armory;
  */
 public interface IActivityArmory {
 
+    /**
+     * @param sku
+     * @return 活动装配：预热活动sku库存、活动、活动次数
+     *  将活动sku库存、活动、活动次数存入cache
+     */
     boolean assembleActivitySku(Long sku);
 }

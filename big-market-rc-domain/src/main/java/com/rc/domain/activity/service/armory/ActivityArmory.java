@@ -24,14 +24,14 @@ public class ActivityArmory implements IActivityArmory,IActivityDispatch{
 
     @Override
     public boolean assembleActivitySku(Long sku) {
+        // 预热活动sku库存
         ActivitySkuEntity activitySku = activityRepository.queryActivitySku(sku);
         cacheActivitySkuStockCount(sku,activitySku.getStockCount());
         // 预热活动【查询时预热到缓存】
         activityRepository.queryRaffleActivityByActivityId(activitySku.getActivityId());
         // 预热活动次数【查询时预热到缓存】
         activityRepository.queryRaffleActivityCountByActivityCountId(activitySku.getActivityCountId());
-
-        return false;
+        return true;
     }
 
     private void cacheActivitySkuStockCount(Long sku, Integer stockCount) {
