@@ -1,164 +1,129 @@
-24-08-16.11:50:04.297 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.11:50:06.653 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.658 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.664 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.679 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.685 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.689 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.700 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.705 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.710 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.713 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.717 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.720 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.726 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.729 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.734 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.738 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.741 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.745 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.748 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:06.753 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
-24-08-16.11:50:51.587 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.11:50:53.696 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.701 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.706 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.711 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.717 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.721 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.727 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.732 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.736 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.740 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.744 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.748 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.752 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.759 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.765 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.769 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.774 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.777 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.791 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.11:50:53.912 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.12:12:08.327 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m44s540ms).
-24-08-16.12:24:22.499 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=11m44s179ms).
-24-08-16.12:50:10.752 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=14m48s205ms).
-24-08-16.12:57:36.600 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=6m55s840ms).
-24-08-16.13:13:39.267 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m32s657ms).
-24-08-16.13:22:48.738 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=9m9s471ms).
-24-08-16.13:40:16.524 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m27s774ms).
-24-08-16.13:43:10.313 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m53s790ms).
-24-08-16.13:45:51.814 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m11s466ms).
-24-08-16.14:04:00.030 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m38s166ms).
-24-08-16.14:11:56.483 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=5m56s409ms).
-24-08-16.14:15:24.084 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m57s574ms).
-24-08-16.14:17:21.172 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m57s88ms).
-24-08-16.14:27:04.459 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.14:27:06.590 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.594 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.600 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.604 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.610 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.614 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.619 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.625 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.641 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.647 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.651 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.656 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.660 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.664 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.672 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.678 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.683 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.692 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.696 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:27:06.699 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:43:28.759 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.14:48:37.615 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=5m34s741ms).
-24-08-16.14:48:47.002 [AMQP Connection 127.0.0.1:5672] WARN  ForgivingExceptionHandler - An unexpected connection driver error occurred (Exception message: Connection reset)
-24-08-16.14:49:29.006 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=52s959ms).
-24-08-16.14:50:28.865 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.865 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=59s858ms).
-24-08-16.14:50:28.920 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.928 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.934 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.938 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.946 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.953 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.961 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.964 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.968 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.973 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.977 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.993 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:28.997 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:29.003 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:29.009 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:29.015 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:29.046 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:29.051 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:29.054 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:50:34.118 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.14:52:33.335 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m23s982ms).
-24-08-16.14:53:28.449 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=47s445ms).
-24-08-16.14:53:56.724 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.800 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.805 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.809 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.813 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.856 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.863 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.870 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.874 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.881 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.885 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:53:56.889 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:54:15.866 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.14:56:31.472 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=47s207ms).
-24-08-16.14:56:31.507 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:56:31.537 [scheduling-1    ] ERROR UpdateActivitySkuStockJob - 定时任务，更新活动sku消费库存失败
-org.springframework.dao.QueryTimeoutException: Redis server response timeout (3000 ms) occured after 3 retry attempts, is non-idempotent command: true Check connection with Redis node: 127.0.0.1/127.0.0.1:6379 for TCP packet drops or bandwidth limits.  Try to increase nettyThreads and/or timeout settings. Command: (LPOP), params: [activity_sku_count_query_key_], channel: [id: 0xa9a7b641, L:/127.0.0.1:53115 - R:127.0.0.1/127.0.0.1:6379]; nested exception is org.redisson.client.RedisResponseTimeoutException: Redis server response timeout (3000 ms) occured after 3 retry attempts, is non-idempotent command: true Check connection with Redis node: 127.0.0.1/127.0.0.1:6379 for TCP packet drops or bandwidth limits.  Try to increase nettyThreads and/or timeout settings. Command: (LPOP), params: [activity_sku_count_query_key_], channel: [id: 0xa9a7b641, L:/127.0.0.1:53115 - R:127.0.0.1/127.0.0.1:6379]
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:48)
-	at org.redisson.spring.data.connection.RedissonExceptionConverter.convert(RedissonExceptionConverter.java:35)
-	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:44)
-	at org.redisson.spring.data.connection.RedissonConnectionFactory.translateExceptionIfPossible(RedissonConnectionFactory.java:91)
-	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
-	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
-	at com.rc.infrastructure.persistent.repository.ActivityRepository$$EnhancerBySpringCGLIB$$6e2c8955.takeQueueValue(<generated>)
-	at com.rc.domain.activity.service.RaffleActivityService.takeQueueValue(RaffleActivityService.java:70)
-	at com.rc.trigger.job.UpdateActivitySkuStockJob.exec(UpdateActivitySkuStockJob.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-Caused by: org.redisson.client.RedisResponseTimeoutException: Redis server response timeout (3000 ms) occured after 3 retry attempts, is non-idempotent command: true Check connection with Redis node: 127.0.0.1/127.0.0.1:6379 for TCP packet drops or bandwidth limits.  Try to increase nettyThreads and/or timeout settings. Command: (LPOP), params: [activity_sku_count_query_key_], channel: [id: 0xa9a7b641, L:/127.0.0.1:53115 - R:127.0.0.1/127.0.0.1:6379]
-	at org.redisson.command.RedisExecutor.lambda$scheduleResponseTimeout$9(RedisExecutor.java:407)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
-	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
-	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
-	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
-	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	... 1 common frames omitted
-24-08-16.14:56:31.582 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:56:31.610 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:56:31.715 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:56:31.781 [main            ] WARN  RaffleOrderTest        - 活动库存不足
-24-08-16.14:57:16.335 [main            ] WARN  DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
-24-08-16.14:59:22.742 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-08-17.00:08:57.848 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m14s819ms).
+24-08-17.00:10:02.648 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=19m4s643ms).
+24-08-17.00:11:07.449 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s602ms).
+24-08-17.00:28:12.281 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m9s633ms).
+24-08-17.00:28:27.305 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m19s856ms).
+24-08-17.00:44:09.773 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m57s492ms).
+24-08-17.00:44:49.703 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m22s397ms).
+24-08-17.00:45:54.412 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s639ms).
+24-08-17.00:46:59.244 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s541ms).
+24-08-17.00:51:40.726 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=5m46s315ms).
+24-08-17.01:07:34.433 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=20m35s189ms).
+24-08-17.01:23:14.360 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=31m33s634ms).
+24-08-17.01:24:19.206 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s774ms).
+24-08-17.01:24:59.118 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s757ms).
+24-08-17.01:42:13.639 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m54s432ms).
+24-08-17.01:58:18.427 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=33m19s310ms).
+24-08-17.01:59:23.270 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m9s632ms).
+24-08-17.02:00:03.174 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s746ms).
+24-08-17.02:32:05.794 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m42s522ms).
+24-08-17.02:33:10.593 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=33m7s419ms).
+24-08-17.02:34:15.393 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s600ms).
+24-08-17.02:34:30.354 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m19s762ms).
+24-08-17.02:50:54.587 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m39s194ms).
+24-08-17.02:51:59.341 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m28s985ms).
+24-08-17.02:53:04.111 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s525ms).
+24-08-17.03:10:36.888 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m37s548ms).
+24-08-17.03:11:16.891 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m12s780ms).
+24-08-17.03:26:57.164 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m20s273ms).
+24-08-17.03:27:36.841 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m19s950ms).
+24-08-17.03:28:41.876 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s715ms).
+24-08-17.03:45:34.761 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m57s920ms).
+24-08-17.04:01:39.851 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m57s976ms).
+24-08-17.04:02:44.454 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m9s693ms).
+24-08-17.04:19:50.197 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m10s346ms).
+24-08-17.04:20:04.958 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m20s504ms).
+24-08-17.04:35:45.207 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m55s10ms).
+24-08-17.04:36:49.765 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s806ms).
+24-08-17.04:38:19.919 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m34s712ms).
+24-08-17.04:54:44.384 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m54s619ms).
+24-08-17.04:55:49.641 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m29s722ms).
+24-08-17.05:11:45.794 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m1s410ms).
+24-08-17.05:12:51.007 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m1s366ms).
+24-08-17.05:28:55.543 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m9s749ms).
+24-08-17.05:30:00.703 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m9s696ms).
+24-08-17.05:30:40.172 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s629ms).
+24-08-17.05:48:37.372 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m36s668ms).
+24-08-17.05:48:52.009 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m11s837ms).
+24-08-17.06:01:45.345 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=13m7s974ms).
+24-08-17.06:02:49.871 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=13m57s863ms).
+24-08-17.06:03:55.033 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s688ms).
+24-08-17.06:04:34.616 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s744ms).
+24-08-17.06:36:22.507 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m27s474ms).
+24-08-17.06:37:22.754 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m48s139ms).
+24-08-17.06:38:27.926 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m5s418ms).
+24-08-17.06:38:42.562 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m19s808ms).
+24-08-17.06:55:41.407 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m13s482ms).
+24-08-17.06:56:45.772 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m3s210ms).
+24-08-17.06:57:50.943 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s535ms).
+24-08-17.07:15:07.098 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m21s326ms).
+24-08-17.07:30:35.014 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m44s71ms).
+24-08-17.07:30:49.700 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m42s602ms).
+24-08-17.07:46:48.500 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m58s798ms).
+24-08-17.07:47:28.821 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m23s737ms).
+24-08-17.07:48:33.282 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s784ms).
+24-08-17.08:06:04.657 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m35s836ms).
+24-08-17.08:22:09.119 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=33m35s837ms).
+24-08-17.08:22:49.444 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s787ms).
+24-08-17.08:23:53.836 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s715ms).
+24-08-17.08:39:36.173 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m46s728ms).
+24-08-17.08:40:40.688 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m46s854ms).
+24-08-17.08:40:56.064 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m19s892ms).
+24-08-17.08:56:51.057 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m54s991ms).
+24-08-17.08:57:55.428 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s736ms).
+24-08-17.08:59:00.533 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s477ms).
+24-08-17.09:16:10.353 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m14s926ms).
+24-08-17.09:17:15.578 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m15s46ms).
+24-08-17.09:17:55.089 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s736ms).
+24-08-17.09:33:35.412 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m19s834ms).
+24-08-17.09:34:14.931 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m19s842ms).
+24-08-17.09:35:20.136 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s723ms).
+24-08-17.09:51:59.353 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m44s421ms).
+24-08-17.10:07:40.738 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m20s602ms).
+24-08-17.10:08:45.241 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m45s889ms).
+24-08-17.10:09:48.668 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m7s928ms).
+24-08-17.10:10:53.000 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m7s758ms).
+24-08-17.10:41:40.718 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=31m52s52ms).
+24-08-17.10:42:45.111 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=31m52s112ms).
+24-08-17.10:44:15.485 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m34s768ms).
+24-08-17.11:02:37.145 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=19m52s33ms).
+24-08-17.11:03:42.530 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=19m27s45ms).
+24-08-17.11:04:21.832 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s687ms).
+24-08-17.11:05:02.464 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m19s934ms).
+24-08-17.11:05:17.717 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=55s885ms).
+24-08-17.11:20:55.983 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m53s519ms).
+24-08-17.11:21:10.314 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=15m52s597ms).
+24-08-17.11:21:50.832 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=54s848ms).
+24-08-17.11:37:30.024 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m19s711ms).
+24-08-17.11:38:10.752 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m19s920ms).
+24-08-17.11:39:14.913 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s888ms).
+24-08-17.11:40:20.395 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s643ms).
+24-08-17.11:42:41.434 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=3m26s522ms).
+24-08-17.11:59:15.498 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m55s103ms).
+24-08-17.12:15:19.702 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=32m38s266ms).
+24-08-17.12:16:25.151 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m9s654ms).
+24-08-17.12:17:04.357 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s657ms).
+24-08-17.12:33:09.869 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s718ms).
+24-08-17.12:33:49.120 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s763ms).
+24-08-17.12:34:54.577 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s707ms).
+24-08-17.12:43:37.681 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=9m48s560ms).
+24-08-17.12:43:53.380 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=8m58s804ms).
+24-08-17.13:02:28.753 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=18m51s72ms).
+24-08-17.13:03:34.239 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=19m40s858ms).
+24-08-17.13:04:38.340 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s588ms).
+24-08-17.13:20:34.973 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=17m734ms).
+24-08-17.13:20:49.283 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m10s942ms).
+24-08-17.13:36:54.714 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m19s742ms).
+24-08-17.13:37:33.917 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=16m44s634ms).
+24-08-17.13:39:04.427 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m9s712ms).
+24-08-17.13:44:33.553 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=6m59s637ms).
+24-08-17.14:03:22.729 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=24m18s302ms).
+24-08-17.14:14:34.530 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=30m977ms).
+24-08-17.14:15:14.965 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=11m52s237ms).
+24-08-17.14:16:19.176 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m44s645ms).
+24-08-17.14:45:34.899 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=30m19s933ms).
+24-08-17.14:45:49.433 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=29m30s258ms).
+24-08-17.14:50:34.872 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=4m59s974ms).
+24-08-17.14:50:49.262 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=4m59s828ms).
+24-08-17.15:06:36.672 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=7m47s325ms).
+24-08-17.15:06:52.281 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=7m47s322ms).

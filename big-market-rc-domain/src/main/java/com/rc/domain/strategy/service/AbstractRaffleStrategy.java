@@ -22,7 +22,7 @@ import org.apache.commons.lang3.StringUtils;
  * @Description 抽奖策略抽象类
  */
 @Slf4j
-public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
+public abstract class  AbstractRaffleStrategy implements IRaffleStrategy {
 
 
     // 策略仓储服务 -> domain层像一个大厨，仓储层提供米面粮油
