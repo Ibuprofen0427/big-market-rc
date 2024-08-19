@@ -9,7 +9,7 @@ import com.rc.domain.activity.model.entity.SkuRechargeEntity;
  * @date 2024/8/13
  * @Description
  */
-public interface IRaffleOrder {
+public interface IRaffleActivityAccountQuotaService {
 
     /**
      * 顾客查询自己在对应活动下可抽奖次数接口
@@ -32,5 +32,5 @@ public interface IRaffleOrder {
      * @param skuRechargeEntity 活动商品充值实体对象
      * @return 活动ID
      */
-    String createSkuReChargeOrder(SkuRechargeEntity skuRechargeEntity);
+    String createOrder(SkuRechargeEntity skuRechargeEntity);
 }

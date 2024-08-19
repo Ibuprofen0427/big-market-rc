@@ -1,17 +1,17 @@
-package com.rc.domain.activity.service;
+package com.rc.domain.activity.service.quota;
 
 import com.rc.domain.activity.model.entity.ActivityCountEntity;
 import com.rc.domain.activity.model.entity.ActivityEntity;
 import com.rc.domain.activity.model.entity.ActivitySkuEntity;
 import com.rc.domain.activity.repository.IActivityRepository;
-import com.rc.domain.activity.service.rule.factory.DefaultActivityChainFactory;
+import com.rc.domain.activity.service.quota.rule.factory.DefaultActivityChainFactory;
 
 /**
  * @author renchuang
  * @date 2024/8/14
  * @Description 抽奖活动的支持类
  */
-public class RaffleActivitySupport {
+public class RaffleActivityAccountQuotaSupport {
 
      protected DefaultActivityChainFactory defaultActivityChainFactory;
 
@@ -20,7 +20,7 @@ public class RaffleActivitySupport {
     // Spring推荐使用构造函数注入
 
 
-    public RaffleActivitySupport(DefaultActivityChainFactory defaultActivityChainFactory, IActivityRepository activityRepository) {
+    public RaffleActivityAccountQuotaSupport(DefaultActivityChainFactory defaultActivityChainFactory, IActivityRepository activityRepository) {
         this.defaultActivityChainFactory = defaultActivityChainFactory;
         this.activityRepository = activityRepository;
     }

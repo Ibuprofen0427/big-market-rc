@@ -1,6 +1,9 @@
 package com.rc.infrastructure.persistent.po;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
@@ -13,6 +16,9 @@ import java.util.Date;
  * 通过Count记录可以一天天计算最终对出Account的结果
  */
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class RaffleActivityAccount {
 
     /**

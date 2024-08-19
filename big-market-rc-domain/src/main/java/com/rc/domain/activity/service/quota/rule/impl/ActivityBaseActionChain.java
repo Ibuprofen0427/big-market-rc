@@ -1,10 +1,10 @@
-package com.rc.domain.activity.service.rule.impl;
+package com.rc.domain.activity.service.quota.rule.impl;
 
 import com.rc.domain.activity.model.entity.ActivityCountEntity;
 import com.rc.domain.activity.model.entity.ActivityEntity;
 import com.rc.domain.activity.model.entity.ActivitySkuEntity;
 import com.rc.domain.activity.model.valobj.ActivityStateVO;
-import com.rc.domain.activity.service.rule.AbstractActionChain;
+import com.rc.domain.activity.service.quota.rule.AbstractActionChain;
 import com.rc.types.enums.ResponseCode;
 import com.rc.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;

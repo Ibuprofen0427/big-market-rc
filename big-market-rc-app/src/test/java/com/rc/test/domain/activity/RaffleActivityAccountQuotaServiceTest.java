@@ -1,16 +1,12 @@
 package com.rc.test.domain.activity;
 
-import com.alibaba.fastjson.JSON;
-import com.rc.domain.activity.model.entity.ActivityOrderEntity;
-import com.rc.domain.activity.model.entity.ActivityShopCartEntity;
 import com.rc.domain.activity.model.entity.SkuRechargeEntity;
-import com.rc.domain.activity.service.IRaffleOrder;
+import com.rc.domain.activity.service.IRaffleActivityAccountQuotaService;
 import com.rc.domain.activity.service.armory.IActivityArmory;
 import com.rc.domain.activity.service.armory.IActivityDispatch;
 import com.rc.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.checkerframework.checker.units.qual.A;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,17 +18,15 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @author renchuang
- * @date 2024/8/14
+ * @date 2024/8/19
  * @Description
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)
 @Slf4j
-public class RaffleOrderTest {
-
-
+public class RaffleActivityAccountQuotaServiceTest {
     @Resource
-    private IRaffleOrder raffleOrder;
+    private IRaffleActivityAccountQuotaService raffleOrder;
 
     @Resource
     private IActivityArmory activityArmory;
@@ -72,7 +66,7 @@ public class RaffleOrderTest {
         skuRechargeEntity.setSku(9011L);
         // outBusinessNo 作为幂等仿重使用，同一个业务单号2次使用会抛出索引冲突 Duplicate entry '700091009111' for key 'uq_out_business_no' 确保唯一性。
         skuRechargeEntity.setOutBusinessNo("700091009111");
-        String orderId = raffleOrder.createSkuReChargeOrder(skuRechargeEntity);
+        String orderId = raffleOrder.createOrder(skuRechargeEntity);
         log.info("测试结果：{}", orderId);
     }
 
@@ -91,7 +85,7 @@ public class RaffleOrderTest {
                 skuRechargeEntity.setSku(9011L);
                 // outBusinessNo 作为幂等仿重使用，同一个业务单号2次使用会抛出索引冲突 Duplicate entry '700091009111' for key 'uq_out_business_no' 确保唯一性。
                 skuRechargeEntity.setOutBusinessNo(RandomStringUtils.randomNumeric(12));
-                String orderId = raffleOrder.createSkuReChargeOrder(skuRechargeEntity);
+                String orderId = raffleOrder.createOrder(skuRechargeEntity);
                 log.info("测试结果：{}", orderId);
             } catch (AppException e) {
                 log.warn(e.getInfo());
@@ -100,7 +94,4 @@ public class RaffleOrderTest {
         // await是为了让mq去消费
         new CountDownLatch(1).await();
     }
-
-
-
 }

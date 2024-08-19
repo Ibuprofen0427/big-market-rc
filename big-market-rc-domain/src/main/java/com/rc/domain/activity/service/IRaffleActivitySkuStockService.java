@@ -7,7 +7,7 @@ import com.rc.domain.activity.model.valobj.ActivitySkuStockKeyVO;
  * @date 2024/8/15
  * @Description 活动Sku库存处理接口
  */
-public interface ISkuStock {
+public interface IRaffleActivitySkuStockService {
 
 
     /**

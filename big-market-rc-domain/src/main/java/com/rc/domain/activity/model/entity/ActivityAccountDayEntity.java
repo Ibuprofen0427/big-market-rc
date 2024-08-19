@@ -1,26 +1,21 @@
-package com.rc.infrastructure.persistent.po;
+package com.rc.domain.activity.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
-
 /**
  * @author renchuang
- * @date 2024/8/17
+ * @date 2024/8/18
  * @Description
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class RaffleActivityAccountDay {
-    /**
-     * 自增id
-     */
-    private String id;
+public class ActivityAccountDayEntity {
+
     /**
      * 用户id
      */
@@ -42,6 +37,4 @@ public class RaffleActivityAccountDay {
      * 活动剩余日次数
      */
     private Integer dayCountSurplus;
-    private Date createTime;
-    private Date updateTime;
 }
