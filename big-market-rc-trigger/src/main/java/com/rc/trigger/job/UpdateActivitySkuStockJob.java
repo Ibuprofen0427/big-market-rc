@@ -14,7 +14,7 @@ import javax.annotation.Resource;
  * @Description 定时更新sku消费库存
  */
 @Slf4j
-@Component("")
+@Component()
 public class UpdateActivitySkuStockJob {
 
     @Resource
@@ -23,7 +23,7 @@ public class UpdateActivitySkuStockJob {
     @Scheduled(cron = "0/5 * * * * ?")
     public void exec(){
         try {
-            log.info("定时任务：更新活动sku消费库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】");
+//            log.info("定时任务：更新活动sku消费库存【延迟队列获取，降低对数据库的更新频次，避免产生竞争】");
             ActivitySkuStockKeyVO activitySkuStockKeyVO = skuStock.takeQueueValue();
             // 队列为空
             if(null == activitySkuStockKeyVO) return;

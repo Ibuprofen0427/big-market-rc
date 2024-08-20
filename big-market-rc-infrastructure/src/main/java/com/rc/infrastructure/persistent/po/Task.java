@@ -10,12 +10,16 @@ import java.util.Date;
  * @Description 任务表，用来发送MQ
  */
 @Data
+
 public class Task {
     private String id;
     /**
      * 消息主题
      */
     private String topic;
+
+    private String userId;
+    private String messageId;
     /**
      * 消息主体
      */
@@ -23,7 +27,7 @@ public class Task {
     /**
      * 任务状态：create-创建，completed-完成，fail-失败
      */
-    private String status;
+    private String state;
     private Date createTime;
     private Date updateTime;
 }

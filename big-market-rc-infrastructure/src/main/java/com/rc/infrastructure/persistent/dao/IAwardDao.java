@@ -1,5 +1,6 @@
 package com.rc.infrastructure.persistent.dao;
 
+import com.rc.domain.award.model.entity.UserAwardRecordEntity;
 import com.rc.infrastructure.persistent.po.Award;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -15,4 +16,5 @@ public interface IAwardDao {
 
     List<Award> queryAwardList();
 
+    void saveAwardRecord(UserAwardRecordEntity userAwardRecordEntity);
 }
