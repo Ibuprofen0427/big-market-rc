@@ -26,10 +26,11 @@ public class RuleLockLogicTreeNode implements ILogicTreeNode {
 //    private IUserRepository userRepository;
 
     // 用户抽奖次数，后续完成这部分流程开发的时候，从数据库/redis中读取
-    private Long userRaffleCount = 10L;
+//    private Long userRaffleCount = 10L;
 
     @Override
     public DefaultTreeFactory.TreeActionEntity logic(String userId, Long strategyId, Integer awardId, String ruleValue) {
+
         log.info("规则过滤 - 次数锁过滤 userId:{} strategyId:{} awardId:{}", userId, strategyId, awardId);
         long raffleCount = 0L;
         try {
@@ -39,6 +40,7 @@ public class RuleLockLogicTreeNode implements ILogicTreeNode {
         }
         // 判断用户抽奖次数和ruleValue值
         // 若用户抽奖次数大于配置值，规则放行
+        Integer userRaffleCount = strategyRepository.queryTodayUserRaffleCount(userId,strategyId);
         if (userRaffleCount >= raffleCount) {
             //  返回放行RuleActionEntity
             return DefaultTreeFactory.TreeActionEntity.builder()

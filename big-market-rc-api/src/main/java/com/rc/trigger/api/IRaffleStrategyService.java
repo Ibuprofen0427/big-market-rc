@@ -1,9 +1,9 @@
 package com.rc.trigger.api;
 
-import com.rc.trigger.api.dto.RaffleAwardListRequestDTO;
-import com.rc.trigger.api.dto.RaffleAwardListResponseDTO;
-import com.rc.trigger.api.dto.RaffleRequestDTO;
-import com.rc.trigger.api.dto.RaffleResponseDTO;
+import com.rc.trigger.api.dto.strategy.RaffleAwardListRequestDTO;
+import com.rc.trigger.api.dto.strategy.RaffleAwardListResponseDTO;
+import com.rc.trigger.api.dto.strategy.RaffleStrategyRequestDTO;
+import com.rc.trigger.api.dto.strategy.RaffleStrategyResponseDTO;
 import com.rc.types.model.Response;
 
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.List;
  * @date 2024/8/4
  * @Description
  */
-public interface IRaffleService {
+public interface IRaffleStrategyService {
 
     /**
      * @param strategyId
@@ -34,5 +34,5 @@ public interface IRaffleService {
      * @return 奖品dto
      * 随机抽奖接口
      */
-    Response<RaffleResponseDTO> raffle(RaffleRequestDTO raffleRequestDTO);
+    Response<RaffleStrategyResponseDTO> raffle(RaffleStrategyRequestDTO raffleRequestDTO);
 }

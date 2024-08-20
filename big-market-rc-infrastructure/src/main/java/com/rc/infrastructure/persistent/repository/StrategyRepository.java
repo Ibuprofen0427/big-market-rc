@@ -54,7 +54,11 @@ public class StrategyRepository implements IStrategyRepository {
     @Resource
     private IRuleTreeNodeLineDao ruleTreeNodeLineDao;
 
+    @Resource
+    private IRaffleActivityDao raffleActivityDao;
 
+    @Resource
+    private IRaffleActivityAccountDayDao raffleActivityAccountDayDao;
 
     @Override
     public List<StrategyAwardEntity> queryStrategyAwardList(Long strategy_id) {
@@ -82,7 +86,7 @@ public class StrategyRepository implements IStrategyRepository {
         }
         // 读取完之后存入缓存
         redisService.setValue(cacheKey, strategyAwardEntities);
-        return null;
+        return strategyAwardEntities;
     }
 
     @Override
@@ -98,8 +102,8 @@ public class StrategyRepository implements IStrategyRepository {
     @Override
     public int getRateRange(Long strategyId) {
         String cacheKey = Constants.RedisKey.STRATEGY_RATE_RANGE_KEY + strategyId;
-        if(!redisService.isExists(cacheKey)) {
-            throw new AppException(ResponseCode.UN_ASSEMBLE_STRATEGY_ARMORY.getCode(),cacheKey+ Constants.COLON+ResponseCode.UN_ASSEMBLE_STRATEGY_ARMORY.getCode());
+        if (!redisService.isExists(cacheKey)) {
+            throw new AppException(ResponseCode.UN_ASSEMBLE_STRATEGY_ARMORY.getCode(), cacheKey + Constants.COLON + ResponseCode.UN_ASSEMBLE_STRATEGY_ARMORY.getCode());
         }
         return redisService.getValue(cacheKey);
     }
@@ -312,6 +316,26 @@ public class StrategyRepository implements IStrategyRepository {
         redisService.setValue(cacheKey, strategyAwardEntity);
         // 返回数据
         return strategyAwardEntity;
+
+    }
+
+    @Override
+    public Long queryStrategyIdByActivityId(Long activityId) {
+        return raffleActivityDao.queryStrategyIdByActivityId(activityId);
+    }
+
+    @Override
+    public Integer queryTodayUserRaffleCount(String userId, Long strategyId) {
+        Long activityId = raffleActivityDao.queryActivityByStrategyId(strategyId);
+        RaffleActivityAccountDay raffleActivityAccountDayReq=new RaffleActivityAccountDay();
+        raffleActivityAccountDayReq.setUserId(userId);
+        raffleActivityAccountDayReq.setActivityId(activityId);
+        raffleActivityAccountDayReq.setDay(raffleActivityAccountDayReq.currentDay());
+        RaffleActivityAccountDay raffleActivityAccountDay = raffleActivityAccountDayDao.queryActivityAccountDayByUserId(raffleActivityAccountDayReq);
+        if(null == raffleActivityAccountDay) {
+            return 0;
+        }
+        return raffleActivityAccountDay.getDayCount() - raffleActivityAccountDay.getDayCountSurplus();
 
     }
 

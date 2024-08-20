@@ -1,4 +1,4 @@
-package com.rc.trigger.api.dto;
+package com.rc.trigger.api.dto.strategy;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,8 +14,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RaffleResponseDTO {
+public class RaffleStrategyRequestDTO {
 
-    private Integer awardId;
-    private Integer awardIndex;
+    private Long strategyId;
 }

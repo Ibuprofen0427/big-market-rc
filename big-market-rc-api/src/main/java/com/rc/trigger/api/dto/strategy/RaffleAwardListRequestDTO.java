@@ -1,4 +1,4 @@
-package com.rc.trigger.api.dto;
+package com.rc.trigger.api.dto.strategy;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

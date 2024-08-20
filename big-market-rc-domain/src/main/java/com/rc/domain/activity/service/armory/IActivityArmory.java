@@ -13,4 +13,7 @@ public interface IActivityArmory {
      *  将活动sku库存、活动、活动次数存入cache
      */
     boolean assembleActivitySku(Long sku);
+
+
+    boolean assembleActivitySkuByActivityId(Long activityId);
 }
