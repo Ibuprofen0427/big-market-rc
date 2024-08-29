@@ -18,4 +18,10 @@ public interface IRaffleAward {
      * 查询奖品列表
      */
     List<StrategyAwardEntity> queryRaffleAwardList(Long strategyId);
+    /**
+     * @param activityId 活动id
+     * @return 奖品列表
+     * 查询奖品列表
+     */
+    List<StrategyAwardEntity> queryRaffleAwardListByActivityId(Long activityId);
 }

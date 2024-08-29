@@ -10,6 +10,7 @@ import com.rc.domain.strategy.model.valobj.StrategyAwardStockKeyVO;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author renchuang
@@ -63,4 +64,6 @@ public interface IStrategyRepository {
     Long queryStrategyIdByActivityId(Long activityId);
 
     Integer queryTodayUserRaffleCount(String userId, Long strategyId);
+
+    Map<String, Integer> queryAwardRuleLockCount(String[] treeIds);
 }

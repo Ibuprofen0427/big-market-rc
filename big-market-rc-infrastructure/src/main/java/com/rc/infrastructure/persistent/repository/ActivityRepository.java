@@ -376,7 +376,7 @@ public class ActivityRepository implements IActivityRepository {
                 }
             });
 
-        }finally {
+        } finally {
             dbRouter.clear();
         }
     }
@@ -403,9 +403,8 @@ public class ActivityRepository implements IActivityRepository {
     }
 
 
-
     @Override
-    public ActivityAccountEntity queryActivityAccountByUserId(String userId,Long activityId) {
+    public ActivityAccountEntity queryActivityAccountByUserId(String userId, Long activityId) {
         // 构造参数后查询总账户
         RaffleActivityAccount raffleActivityAccountReq = new RaffleActivityAccount();
         raffleActivityAccountReq.setUserId(userId);
@@ -425,6 +424,7 @@ public class ActivityRepository implements IActivityRepository {
                 .monthCountSurplus(raffleActivityAccountRes.getMonthCountSurplus())
                 .build();
     }
+
     @Override
     public ActivityAccountMonthEntity queryActivityMonthAccountByUserId(String userId, Long activityId, String month) {
         // 构造参数后查询月账户
@@ -432,7 +432,7 @@ public class ActivityRepository implements IActivityRepository {
         raffleActivityAccountMonthReq.setUserId(userId);
         raffleActivityAccountMonthReq.setActivityId(activityId);
         raffleActivityAccountMonthReq.setMonth(month);
-        RaffleActivityAccountMonth raffleActivityAccountMonthRes=raffleActivityAccountMonthDao.queryActivityAccountMonthByUserId(raffleActivityAccountMonthReq);
+        RaffleActivityAccountMonth raffleActivityAccountMonthRes = raffleActivityAccountMonthDao.queryActivityAccountMonthByUserId(raffleActivityAccountMonthReq);
         if (null == raffleActivityAccountMonthRes) return null;
 
 
@@ -450,7 +450,7 @@ public class ActivityRepository implements IActivityRepository {
     public List<ActivitySkuEntity> queryActivitySkuListByActivityId(Long activityId) {
         List<RaffleActivitySku> raffleActivitySkus = raffleActivitySkuDao.queryActivitySkuListByActivityId(activityId);
         List<ActivitySkuEntity> activitySkuEntities = new ArrayList<>(raffleActivitySkus.size());
-        for (RaffleActivitySku raffleActivitySku:raffleActivitySkus){
+        for (RaffleActivitySku raffleActivitySku : raffleActivitySkus) {
             ActivitySkuEntity activitySkuEntity = new ActivitySkuEntity();
             activitySkuEntity.setSku(raffleActivitySku.getSku());
             activitySkuEntity.setActivityCountId(raffleActivitySku.getActivityCountId());
@@ -461,15 +461,25 @@ public class ActivityRepository implements IActivityRepository {
         return activitySkuEntities;
     }
 
+    @Override
+    public Integer queryRaffleActivityAccountDayPartakeCount(Long activityId, String userId) {
+        RaffleActivityAccountDay raffleActivityAccountDayReq = new RaffleActivityAccountDay();
+        raffleActivityAccountDayReq.setUserId(userId);
+        raffleActivityAccountDayReq.setActivityId(activityId);
+        raffleActivityAccountDayReq.setDay(raffleActivityAccountDayReq.currentDay());
+        Integer dayPartakeCount = raffleActivityAccountDayDao.queryRaffleActivityAccountDayPartakeCount(raffleActivityAccountDayReq);
+        return null == dayPartakeCount ? 0 : dayPartakeCount;
+    }
+
 
     @Override
-    public ActivityAccountDayEntity queryActivityDayAccountByUserId(String userId,Long activityId,String day) {
+    public ActivityAccountDayEntity queryActivityDayAccountByUserId(String userId, Long activityId, String day) {
         // 构造参数后查询日账户
         RaffleActivityAccountDay raffleActivityAccountDayReq = new RaffleActivityAccountDay();
         raffleActivityAccountDayReq.setUserId(userId);
         raffleActivityAccountDayReq.setActivityId(activityId);
         raffleActivityAccountDayReq.setDay(day);
-        RaffleActivityAccountDay raffleActivityAccountDayRes=raffleActivityAccountDayDao.queryActivityAccountDayByUserId(raffleActivityAccountDayReq);
+        RaffleActivityAccountDay raffleActivityAccountDayRes = raffleActivityAccountDayDao.queryActivityAccountDayByUserId(raffleActivityAccountDayReq);
         if (null == raffleActivityAccountDayRes) return null;
 
         // 转换对象

@@ -7,6 +7,7 @@ import com.rc.domain.strategy.model.valobj.StrategyAwardStockKeyVO;
 import com.rc.domain.strategy.repository.IStrategyRepository;
 import com.rc.domain.strategy.service.AbstractRaffleStrategy;
 import com.rc.domain.strategy.service.IRaffleAward;
+import com.rc.domain.strategy.service.IRaffleRule;
 import com.rc.domain.strategy.service.IRaffleStock;
 import com.rc.domain.strategy.service.armory.IStrategyDispatch;
 import com.rc.domain.strategy.service.rule.chain.ILogicChain;
@@ -18,6 +19,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author renchuang
@@ -26,7 +28,7 @@ import java.util.List;
  */
 @Service
 @Slf4j
-public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRaffleAward , IRaffleStock {
+public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRaffleAward , IRaffleStock, IRaffleRule {
 
     public DefaultRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch, DefaultChainFactory defaultChainFactory, DefaultTreeFactory defaultTreeFactory) {
         super(repository, strategyDispatch, defaultChainFactory, defaultTreeFactory);
@@ -86,6 +88,17 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
     @Override
     public List<StrategyAwardEntity> queryRaffleAwardList(Long strategyId) {
         return repository.queryStrategyAwardList(strategyId);
+    }
+
+    @Override
+    public List<StrategyAwardEntity> queryRaffleAwardListByActivityId(Long activityId) {
+        Long strategyId = repository.queryStrategyIdByActivityId(activityId);
+        return queryRaffleAwardList(strategyId);
+    }
+
+    @Override
+    public Map<String, Integer> queryAwardRuleLockCount(String[] treeIds) {
+        return repository.queryAwardRuleLockCount(treeIds);
     }
 }
 

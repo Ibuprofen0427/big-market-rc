@@ -30,5 +30,7 @@ public class StrategyAwardEntity {
     // 奖品中奖概率
     private BigDecimal awardRate;
     private Integer sort;
+    // 奖品规则
+    private String ruleModels;
 
 }

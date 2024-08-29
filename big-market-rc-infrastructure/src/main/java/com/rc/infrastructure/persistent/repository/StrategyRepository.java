@@ -81,6 +81,7 @@ public class StrategyRepository implements IStrategyRepository {
                     .awardCountSurplus(strategyAward.getAwardCountSurplus())
                     .awardRate(strategyAward.getAwardRate())
                     .sort(strategyAward.getSort())
+                    .ruleModels(strategyAward.getRuleModels())
                     .build();
             strategyAwardEntities.add(strategyAwardEntity);
         }
@@ -327,16 +328,29 @@ public class StrategyRepository implements IStrategyRepository {
     @Override
     public Integer queryTodayUserRaffleCount(String userId, Long strategyId) {
         Long activityId = raffleActivityDao.queryActivityByStrategyId(strategyId);
-        RaffleActivityAccountDay raffleActivityAccountDayReq=new RaffleActivityAccountDay();
+        RaffleActivityAccountDay raffleActivityAccountDayReq = new RaffleActivityAccountDay();
         raffleActivityAccountDayReq.setUserId(userId);
         raffleActivityAccountDayReq.setActivityId(activityId);
         raffleActivityAccountDayReq.setDay(raffleActivityAccountDayReq.currentDay());
         RaffleActivityAccountDay raffleActivityAccountDay = raffleActivityAccountDayDao.queryActivityAccountDayByUserId(raffleActivityAccountDayReq);
-        if(null == raffleActivityAccountDay) {
+        if (null == raffleActivityAccountDay) {
             return 0;
         }
         return raffleActivityAccountDay.getDayCount() - raffleActivityAccountDay.getDayCountSurplus();
 
+    }
+
+    @Override
+    public Map<String, Integer> queryAwardRuleLockCount(String[] treeIds) {
+        if (null == treeIds || treeIds.length == 0) return new HashMap<>();
+        List<RuleTreeNode> ruleTreeNodes = ruleTreeNodeDao.queryRuleLocks(treeIds);
+        Map<String, Integer> resultMap = new HashMap<>();
+        for(RuleTreeNode ruleTreeNode : ruleTreeNodes) {
+            String treeId=ruleTreeNode.getTreeId();
+            Integer ruleValue=Integer.valueOf(ruleTreeNode.getRuleValue());
+            resultMap.put(treeId, ruleValue);
+        }
+        return resultMap;
     }
 
 }
