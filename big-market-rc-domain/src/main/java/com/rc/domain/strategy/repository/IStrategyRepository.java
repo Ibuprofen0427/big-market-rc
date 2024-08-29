@@ -8,6 +8,7 @@ import com.rc.domain.strategy.model.valobj.StrategyAwardRuleModelVO;
 import com.rc.domain.strategy.model.valobj.StrategyAwardStockKeyVO;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,7 +42,7 @@ public interface IStrategyRepository {
     RuleTreeVO queryRuleTreeVOByTreeId(String treeId);
 
     /**
-     * @param cacheKey key
+     * @param cacheKey   key
      * @param awardCount 库存值
      */
     void cacheStrategyAwardCount(String cacheKey, Integer awardCount);
@@ -52,6 +53,8 @@ public interface IStrategyRepository {
      * @Description decr方式扣减库存
      */
     Boolean subtractionAwardStock(String cacheKey);
+
+    Boolean subtractionAwardStock(String cacheKey, Date endDateTime);
 
     void awardStockConsumeSendQueue(StrategyAwardStockKeyVO strategyAwardStockKeyVO);
 

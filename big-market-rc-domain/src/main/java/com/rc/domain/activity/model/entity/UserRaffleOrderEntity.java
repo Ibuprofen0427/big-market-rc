@@ -46,6 +46,10 @@ public class UserRaffleOrderEntity {
      * 订单状态
      */
     private UserRaffleOrderStateVO orderState;
+    /**
+     * 活动结束时间，用于给库存锁key设置过期时间
+     */
+    private Date endDateTime;
 
 
 }

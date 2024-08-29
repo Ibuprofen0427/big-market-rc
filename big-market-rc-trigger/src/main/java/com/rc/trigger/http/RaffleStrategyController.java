@@ -105,7 +105,7 @@ public class RaffleStrategyController implements IRaffleStrategyService {
             String[] treeIds = strategyAwardEntities.stream()
                     .map(StrategyAwardEntity::getRuleModels)
                     // 过滤一下不为空的ruleModel
-                    .filter(ruleModel -> ruleModel != null && ruleModel.isEmpty())
+                    .filter(ruleModel -> ruleModel != null && !ruleModel.isEmpty())
                     .toArray(String[]::new);
             // 4.查询规则配置 - 获取奖品的解锁限制信息
             Map<String, Integer> ruleLockCountMap = raffleRule.queryAwardRuleLockCount(treeIds);

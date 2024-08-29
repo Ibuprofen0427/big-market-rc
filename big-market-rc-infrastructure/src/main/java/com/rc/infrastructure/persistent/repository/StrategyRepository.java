@@ -247,6 +247,11 @@ public class StrategyRepository implements IStrategyRepository {
 
     @Override
     public Boolean subtractionAwardStock(String cacheKey) {
+        return subtractionAwardStock(cacheKey, null);
+    }
+
+    @Override
+    public Boolean subtractionAwardStock(String cacheKey, Date endDateTime) {
         long surplus = redisService.decr(cacheKey);
         if (surplus < 0) {
             redisService.setAtomicLong(cacheKey, 0);
@@ -254,7 +259,14 @@ public class StrategyRepository implements IStrategyRepository {
         }
         // 加锁
         String lockKey = cacheKey + Constants.UNDERLINE + surplus;
-        Boolean lock = redisService.setNx(lockKey);
+        Boolean lock = false;
+        if (null != endDateTime) {
+            // 设置key的过期时间，锁的有效期维持一天
+            long expireMillis = endDateTime.getTime() - System.currentTimeMillis() + TimeUnit.DAYS.toMillis(1);
+            lock = redisService.setNx(lockKey,expireMillis, TimeUnit.MILLISECONDS);
+        } else {
+            lock = redisService.setNx(lockKey);
+        }
         if (!lock) {
             log.info("策略奖品库存加锁失败 {}", lockKey);
         }
@@ -345,9 +357,9 @@ public class StrategyRepository implements IStrategyRepository {
         if (null == treeIds || treeIds.length == 0) return new HashMap<>();
         List<RuleTreeNode> ruleTreeNodes = ruleTreeNodeDao.queryRuleLocks(treeIds);
         Map<String, Integer> resultMap = new HashMap<>();
-        for(RuleTreeNode ruleTreeNode : ruleTreeNodes) {
-            String treeId=ruleTreeNode.getTreeId();
-            Integer ruleValue=Integer.valueOf(ruleTreeNode.getRuleValue());
+        for (RuleTreeNode ruleTreeNode : ruleTreeNodes) {
+            String treeId = ruleTreeNode.getTreeId();
+            Integer ruleValue = Integer.valueOf(ruleTreeNode.getRuleValue());
             resultMap.put(treeId, ruleValue);
         }
         return resultMap;

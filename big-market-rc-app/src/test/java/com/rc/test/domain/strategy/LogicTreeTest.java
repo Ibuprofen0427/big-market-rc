@@ -103,7 +103,7 @@ public class LogicTreeTest {
         // 获取规则树引擎
         IDecisionTreeEngine treeEngine = defaultTreeFactory.openLogicTree(ruleTreeVO);
         // 引擎启动执行process，获得最终奖品
-        DefaultTreeFactory.StrategyAwardVO data = treeEngine.process("rc", 100001L, 1000);
+        DefaultTreeFactory.StrategyAwardVO data = treeEngine.process("rc", 100001L, 1000,null);
         // lock通过，stock不通过然后走兜底，兜底接管后最终奖品为兜底。
         log.info("测试结果：{}", JSON.toJSONString(data));
 

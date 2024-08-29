@@ -25,4 +25,6 @@ public class RaffleAwardEntity {
 
     private String awardTitle;
 
+
+
 }

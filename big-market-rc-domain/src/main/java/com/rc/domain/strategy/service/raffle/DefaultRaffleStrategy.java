@@ -18,6 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -28,7 +29,7 @@ import java.util.Map;
  */
 @Service
 @Slf4j
-public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRaffleAward , IRaffleStock, IRaffleRule {
+public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRaffleAward, IRaffleStock, IRaffleRule {
 
     public DefaultRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch, DefaultChainFactory defaultChainFactory, DefaultTreeFactory defaultTreeFactory) {
         super(repository, strategyDispatch, defaultChainFactory, defaultTreeFactory);
@@ -55,6 +56,11 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
      */
     @Override
     public DefaultTreeFactory.StrategyAwardVO raffleLogicTree(String userId, Long strategyId, Integer awardId) {
+        return raffleLogicTree(userId, strategyId, awardId, null);
+    }
+
+    @Override
+    public DefaultTreeFactory.StrategyAwardVO raffleLogicTree(String userId, Long strategyId, Integer awardId, Date endDateTime) {
         StrategyAwardRuleModelVO strategyAwardRuleModelVO = repository.queryStrategyAwardRuleModel(strategyId, awardId);
         // 若该策略下的该奖品没有配置rule_models（比如luck，random，lock等），说明没有规则限制，该奖品可以直接返回
         if (null == strategyAwardRuleModelVO) {
@@ -71,7 +77,7 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
         // 获取规则树引擎
         IDecisionTreeEngine ruleTreeEngine = defaultTreeFactory.openLogicTree(ruleTreeVO);
         // 返回规则树处理结果
-        return ruleTreeEngine.process(userId, strategyId, awardId);
+        return ruleTreeEngine.process(userId, strategyId, awardId,endDateTime);
     }
 
 
@@ -82,7 +88,7 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
 
     @Override
     public void updateStrategyAwardStock(Long strategyId, Integer awardId) {
-        repository.updateStrategyAwardStock(strategyId,awardId);
+        repository.updateStrategyAwardStock(strategyId, awardId);
     }
 
     @Override
