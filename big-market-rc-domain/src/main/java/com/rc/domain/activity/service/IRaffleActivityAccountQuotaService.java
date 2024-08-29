@@ -7,7 +7,7 @@ import com.rc.domain.activity.model.entity.SkuRechargeEntity;
 /**
  * @author renchuang
  * @date 2024/8/13
- * @Description
+ * @Description 抽奖活动次数服务接口
  */
 public interface IRaffleActivityAccountQuotaService {
 
@@ -30,7 +30,7 @@ public interface IRaffleActivityAccountQuotaService {
      * 2. 对于用户可获得的抽奖次数，比如首次进来就有一次，则是依赖于运营配置的动作，在前端页面上。用户点击后，可以获得一次抽奖次数。
      *
      * @param skuRechargeEntity 活动商品充值实体对象
-     * @return 活动ID
+     * @return 订单编号
      */
     String createOrder(SkuRechargeEntity skuRechargeEntity);
 }

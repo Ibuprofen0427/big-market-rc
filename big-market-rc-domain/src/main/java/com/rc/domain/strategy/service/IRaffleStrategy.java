@@ -10,5 +10,11 @@ import com.rc.domain.strategy.model.entity.RaffleFactorEntity;
  */
 public interface IRaffleStrategy {
 
+
+    /**
+     * @param raffleFactorEntity 抽奖因子
+     * @return 抽奖奖品实体
+     * 抽奖接口
+     */
     RaffleAwardEntity performRaffle(RaffleFactorEntity raffleFactorEntity);
 }

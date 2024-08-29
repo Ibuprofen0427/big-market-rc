@@ -34,23 +34,17 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
     public boolean assembleLotteryStrategy(Long strategyId) {
         // 1.查询策略配置对应的奖品，按照策略查找对应的该策略下的奖品
         List<StrategyAwardEntity> strategyAwardEntities = strategyRepository.queryStrategyAwardList(strategyId);
-
         // 2.缓存奖品库存装配，用于decr扣减库存使用
         for (StrategyAwardEntity strategyAwardEntity : strategyAwardEntities) {
             Integer awardId = strategyAwardEntity.getAwardId();
             Integer awardCount = strategyAwardEntity.getAwardCount();
             cacheStrategyAwardCount(strategyId, awardId, awardCount);
-
         }
-
         // 3-1.默认装配配置【全量抽奖概率】
         assembleLotteryStrategy(String.valueOf(strategyId), strategyAwardEntities);
-
-
         // 3-2.权重策略配置 - 使用于 rule_weight 权重规则配置
         StrategyEntity strategyEntity = strategyRepository.queryStrategyEntityByStrategyId(strategyId);
         // 4.获取rule_weight
-        // todo：这里报错
         String ruleWeight = strategyEntity.getRuleWeight();
         if (null == ruleWeight) return true;
         // 5.查询StrategyRuleEntity
@@ -76,9 +70,9 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
     }
 
     @Override
-    public Boolean assembleLotteryStrategyByActivityId(Long activityId) {
+    public void assembleLotteryStrategyByActivityId(Long activityId) {
         Long strategyId = strategyRepository.queryStrategyIdByActivityId(activityId);
-        return assembleLotteryStrategy(strategyId);
+        assembleLotteryStrategy(strategyId);
     }
 
     private void cacheStrategyAwardCount(Long strategyId, Integer awardId, Integer awardCount) {
@@ -98,16 +92,12 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
                 .map(StrategyAwardEntity::getAwardRate)
                 .min(BigDecimal::compareTo)
                 .orElse(BigDecimal.ZERO);
-
         // 2.获取概率值总和
         BigDecimal totalAwardRate = strategyAwardEntities.stream().
                 map(StrategyAwardEntity::getAwardRate).reduce(BigDecimal.ZERO, BigDecimal::add);
-
         // 3.用1 % 0.0001 获取概率范围，百分位，千分位，万分位
         BigDecimal rateRange = totalAwardRate.divide(minAwardRate, 0, RoundingMode.CEILING);
-
         // 4.生成策略
-
         // 根据每个奖项的中奖率填充奖项查找表
         // 例如下面的注释，按规则比例分配奖项查找表
         ArrayList<Integer> strategyAwardSearchRateTables = new ArrayList<>(rateRange.intValue());
@@ -146,8 +136,9 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
     @Override
     public Integer getRandomAwardId(Long strategyId) {
         // 分布式部署下，不一定为当前应用做的策略配置，也就是值不一定会保存到本应用，而是分布式应用，所以从Redis中获取
+        // 获取生成抽取区间范围值
         int rateRange = strategyRepository.getRateRange(strategyId);
-        // 通过生成的碎挤汁，获取概率值奖品查找表的结果
+        // 通过生成抽取区间范围值的随机值，拿随机值当作key查奖品查找表Map，value就是抽奖奖品结果
         return strategyRepository.getStrategyAwardAssemble(String.valueOf(strategyId), new SecureRandom().nextInt(rateRange));
     }
 

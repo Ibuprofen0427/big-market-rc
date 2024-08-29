@@ -10,5 +10,9 @@ import com.rc.domain.award.model.entity.UserAwardRecordEntity;
 
 public interface IAwardService {
 
+    /**
+     * @param userAwardRecordEntity 用户中奖记录实体
+     * 用户中奖奖品流水落库
+     */
     void saveAwardRecord(UserAwardRecordEntity userAwardRecordEntity);
 }

@@ -19,6 +19,7 @@ public interface ITaskDao {
 
     @DBRouter
     void updateTaskSendMessageCompleted(Task task);
+
     @DBRouter
     void updateTaskSendMessageFail(Task task);
 

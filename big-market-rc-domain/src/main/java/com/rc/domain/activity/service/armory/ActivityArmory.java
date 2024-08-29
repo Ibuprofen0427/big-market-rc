@@ -37,6 +37,7 @@ public class ActivityArmory implements IActivityArmory, IActivityDispatch {
 
     @Override
     public boolean assembleActivitySkuByActivityId(Long activityId) {
+        //
         List<ActivitySkuEntity> activitySkuEntities = activityRepository.queryActivitySkuListByActivityId(activityId);
         for (ActivitySkuEntity activitySkuEntity : activitySkuEntities) {
             cacheActivitySkuStockCount(activitySkuEntity.getSku(), activitySkuEntity.getStockCountSurplus());

@@ -41,6 +41,11 @@ public abstract class  AbstractRaffleStrategy implements IRaffleStrategy {
         this.defaultTreeFactory = defaultTreeFactory;
     }
 
+    /**
+     * @param raffleFactorEntity 抽奖因子
+     * @return 奖品实体
+     * 模板方法，定义了抽奖的主要流程：参数校验——责任链抽奖计算——规则树抽奖过滤——返回结果
+     */
     @Override
     public RaffleAwardEntity performRaffle(RaffleFactorEntity raffleFactorEntity) {
         // 1.参数校验
@@ -71,6 +76,7 @@ public abstract class  AbstractRaffleStrategy implements IRaffleStrategy {
         return buildRaffleAwardEntity(strategyId, treeStrategyAwardVO.getAwardId(), treeStrategyAwardVO.getAwardRuleValue());
     }
 
+    // 钩子方法，用于根据抽奖结构构建最终的奖品尸体对象。
     private RaffleAwardEntity buildRaffleAwardEntity(Long strategyId, Integer awardId, String awardConfig) {
         StrategyAwardEntity strategyAward = repository.queryStrategyAwardEntity(strategyId, awardId);
         return RaffleAwardEntity.builder()
@@ -83,7 +89,7 @@ public abstract class  AbstractRaffleStrategy implements IRaffleStrategy {
 
 
     /**
-     * 抽奖计算，责任链抽象方法
+     * 抽奖计算，责任链抽象方法，由子类DefaultRaffleStrategy实现具体计算逻辑
      *
      * @param userId     用户ID
      * @param strategyId 策略ID
@@ -92,7 +98,7 @@ public abstract class  AbstractRaffleStrategy implements IRaffleStrategy {
     public abstract DefaultChainFactory.StrategyAwardVO raffleLogicChain(String userId, Long strategyId);
 
     /**
-     * 抽奖结果过滤，决策树抽象方法
+     * 抽奖结果过滤，决策树抽象方法，由子类DefaultRaffleStrategy实现具体过滤逻辑
      *
      * @param userId     用户ID
      * @param strategyId 策略ID
