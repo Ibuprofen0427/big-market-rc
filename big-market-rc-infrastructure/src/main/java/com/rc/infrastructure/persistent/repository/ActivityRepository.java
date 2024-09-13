@@ -217,7 +217,7 @@ public class ActivityRepository implements IActivityRepository {
         }
         // surplus>0:正常扣减逻辑
         // 1.按照cachekey decr后的值，如99，98，97和key组成库存锁的key进行使用
-        // 2.加锁是为了兜底，如果后续有回复库存、手动处理等【运营等人操作，会有这种情况】，也不会超卖，因为所有的可用库存key，都加了锁。
+        // 2.加锁是为了兜底，如果后续有恢复库存、手动处理等【运营等人操作，会有这种情况】，也不会超卖，因为所有的可用库存key，都加了锁。
         // 3.设置加锁时间为活动到期 + 延迟1天
         String lockKey = cacheKey + Constants.UNDERLINE + surplus;
         long expireMillis = endDateTime.getTime() - System.currentTimeMillis() + TimeUnit.DAYS.toMillis(1);

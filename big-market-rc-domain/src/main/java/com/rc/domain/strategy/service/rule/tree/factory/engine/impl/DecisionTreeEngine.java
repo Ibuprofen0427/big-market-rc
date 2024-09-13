@@ -63,7 +63,6 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
 
     //  本节点执行完，获取下一个节点
     private String nextNode(String matterValue, List<RuleTreeNodeLineVO> ruleTreeNodeLineVOList) {
-        // todo:这样，有毛病
         if (null == ruleTreeNodeLineVOList || ruleTreeNodeLineVOList.isEmpty()) {
             return null;
         }
